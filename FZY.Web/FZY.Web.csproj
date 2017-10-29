@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <TargetFrameworkProfile />
     <TypeScriptToolsVersion>2.1</TypeScriptToolsVersion>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -354,6 +355,140 @@
     <Content Include="Content\admin.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\bootstrap-grid.min.css" />
+    <Content Include="Content\css\cherry-plugin.css" />
+    <Content Include="Content\css\css.css" />
+    <Content Include="Content\css\css2.css" />
+    <Content Include="Content\css\flexslider.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\font-awesome.min2.css" />
+    <Content Include="Content\css\Googlecss.css" />
+    <Content Include="Content\css\js_composer.css" />
+    <Content Include="Content\css\layerslider.css" />
+    <Content Include="Content\css\lazy-load.css" />
+    <Content Include="Content\css\owl.carousel.css" />
+    <Content Include="Content\css\owl.theme.css" />
+    <Content Include="Content\css\parallax.css" />
+    <Content Include="Content\css\prettyPhoto.css" />
+    <Content Include="Content\css\responsive.min.css" />
+    <Content Include="Content\css\sb-instagram.css" />
+    <Content Include="Content\css\styles.css" />
+    <Content Include="Content\css\stylesheet.min.css" />
+    <Content Include="Content\css\style_dynamic.css" />
+    <Content Include="Content\css\theme.css" />
+    <Content Include="Content\images\commercial.jpg" />
+    <Content Include="Content\images\fit_out_works.jpg" />
+    <Content Include="Content\images\FooterLogo.png" />
+    <Content Include="Content\images\gallery\adnoc.png" />
+    <Content Include="Content\images\gallery\Al_Basti_Muktha_LLC.png" />
+    <Content Include="Content\images\gallery\al_ghurair.png" />
+    <Content Include="Content\images\gallery\al_habtoor.png" />
+    <Content Include="Content\images\gallery\al_jaber_optical.png" />
+    <Content Include="Content\images\gallery\al_khayat_real_estate.png" />
+    <Content Include="Content\images\gallery\al_naboodah.png" />
+    <Content Include="Content\images\gallery\al_rostamani.png" />
+    <Content Include="Content\images\gallery\al_safa.png" />
+    <Content Include="Content\images\gallery\arifbintoak.png" />
+    <Content Include="Content\images\gallery\artsource-llc.png" />
+    <Content Include="Content\images\gallery\belhasa.png" />
+    <Content Include="Content\images\gallery\belhasa_travel.png" />
+    <Content Include="Content\images\gallery\BinHendi.png" />
+    <Content Include="Content\images\gallery\broadway.png" />
+    <Content Include="Content\images\gallery\casamia.png" />
+    <Content Include="Content\images\gallery\damac.png" />
+    <Content Include="Content\images\gallery\daniellee.png" />
+    <Content Include="Content\images\gallery\design_mode.png" />
+    <Content Include="Content\images\gallery\emirates_transport.png" />
+    <Content Include="Content\images\gallery\eurostar.png" />
+    <Content Include="Content\images\gallery\eyeq.png" />
+    <Content Include="Content\images\gallery\grand_optics.png" />
+    <Content Include="Content\images\gallery\infoaffreschi.png" />
+    <Content Include="Content\images\gallery\irc.png" />
+    <Content Include="Content\images\gallery\junblat.png" />
+    <Content Include="Content\images\gallery\kenscompany.png" />
+    <Content Include="Content\images\gallery\kipling.png" />
+    <Content Include="Content\images\gallery\kps.png" />
+    <Content Include="Content\images\gallery\life_optics.png" />
+    <Content Include="Content\images\gallery\lunettes.png" />
+    <Content Include="Content\images\gallery\metropolitan_palace.png" />
+    <Content Include="Content\images\gallery\moov.png" />
+    <Content Include="Content\images\gallery\neckneck.png" />
+    <Content Include="Content\images\gallery\optic_centre.png" />
+    <Content Include="Content\images\gallery\prime_optic.png" />
+    <Content Include="Content\images\gallery\RPGroup.png" />
+    <Content Include="Content\images\gallery\seven_seas.png" />
+    <Content Include="Content\images\gallery\summertown.png" />
+    <Content Include="Content\images\gallery\sun_and_sports.png" />
+    <Content Include="Content\images\gallery\sun_eye.png" />
+    <Content Include="Content\images\gallery\world_center.png" />
+    <Content Include="Content\images\gallery\zain.png" />
+    <Content Include="Content\images\gallery_img\img17.jpg" />
+    <Content Include="Content\images\gallery_img\img19.jpg" />
+    <Content Include="Content\images\gallery_img\img2.jpg" />
+    <Content Include="Content\images\gallery_img\img21.jpg" />
+    <Content Include="Content\images\gallery_img\img22.jpg" />
+    <Content Include="Content\images\gallery_img\img23.jpg" />
+    <Content Include="Content\images\gallery_img\img24.jpg" />
+    <Content Include="Content\images\gallery_img\img25.jpg" />
+    <Content Include="Content\images\gallery_img\img26.jpg" />
+    <Content Include="Content\images\gallery_img\img27.jpg" />
+    <Content Include="Content\images\gallery_img\img28.jpg" />
+    <Content Include="Content\images\gallery_img\img3.jpg" />
+    <Content Include="Content\images\gallery_img\img30.jpg" />
+    <Content Include="Content\images\gallery_img\img31.jpg" />
+    <Content Include="Content\images\gallery_img\img33.jpg" />
+    <Content Include="Content\images\gallery_img\img34.jpg" />
+    <Content Include="Content\images\gallery_img\img36.jpg" />
+    <Content Include="Content\images\gallery_img\img37.jpg" />
+    <Content Include="Content\images\gallery_img\img4.jpg" />
+    <Content Include="Content\images\gallery_img\img41.jpg" />
+    <Content Include="Content\images\gallery_img\img42.jpg" />
+    <Content Include="Content\images\gallery_img\img45.jpg" />
+    <Content Include="Content\images\gallery_img\img46.jpg" />
+    <Content Include="Content\images\gallery_img\img5.jpg" />
+    <Content Include="Content\images\header\udc1.jpg" />
+    <Content Include="Content\images\header\udc2.jpg" />
+    <Content Include="Content\images\header\udc3.jpg" />
+    <Content Include="Content\images\header\udc4.jpg" />
+    <Content Include="Content\images\header\udc5.jpg" />
+    <Content Include="Content\images\residential.png" />
+    <Content Include="Content\images\seven_seas.png" />
+    <Content Include="Content\images\StickyUDC.png" />
+    <Content Include="Content\images\udc.png" />
+    <Content Include="Content\js\ajax.min.js" />
+    <Content Include="Content\js\cherry-plugin.js" />
+    <Content Include="Content\js\cherry.lazy-load.js" />
+    <Content Include="Content\js\cherry.parallax.js" />
+    <Content Include="Content\js\comment-reply.min.js" />
+    <Content Include="Content\js\custom_js.php.js" />
+    <Content Include="Content\js\default.min.js" />
+    <Content Include="Content\js\default_dynamic.php.js" />
+    <Content Include="Content\js\device.min.js" />
+    <Content Include="Content\js\greensock.js" />
+    <Content Include="Content\js\isotope.pkgd.min.js" />
+    <Content Include="Content\js\jquery-migrate.min.js" />
+    <Content Include="Content\js\jquery.carouFredSel-6.2.1.min.js" />
+    <Content Include="Content\js\jquery.easing.1.3.js" />
+    <Content Include="Content\js\jquery.elastislide.js" />
+    <Content Include="Content\js\jquery.flexslider-min.js" />
+    <Content Include="Content\js\jquery.form.min.js" />
+    <Content Include="Content\js\jquery.fullPage.min.js" />
+    <Content Include="Content\js\jquery.js" />
+    <Content Include="Content\js\jquery.mousewheel.min.js" />
+    <Content Include="Content\js\jquery.prettyPhoto.js" />
+    <Content Include="Content\js\jquery.simplr.smoothscroll.min.js" />
+    <Content Include="Content\js\jquery.touchSwipe.min.js" />
+    <Content Include="Content\js\js.js" />
+    <Content Include="Content\js\js_composer_front.js" />
+    <Content Include="Content\js\layerslider.kreaturamedia.jquery.js" />
+    <Content Include="Content\js\layerslider.transitions.js" />
+    <Content Include="Content\js\lemmon-slider.min.js" />
+    <Content Include="Content\js\plugins.js" />
+    <Content Include="Content\js\qode-like.js" />
+    <Content Include="Content\js\scripts.js" />
+    <Content Include="Content\js\ScrollToPlugin.min.js" />
+    <Content Include="Content\js\smoothPageScroll.js" />
+    <Content Include="Content\js\TweenLite.min.js" />
     <Content Include="Content\pagination.css" />
     <Content Include="Content\pintuer.css" />
     <Content Include="Content\Site.css" />
@@ -461,12 +596,6 @@
     <Content Include="Content\themes\base\tabs.css" />
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
-    <Content Include="css\main.css">
-      <DependentUpon>main.less</DependentUpon>
-    </Content>
-    <Content Include="css\main.min.css">
-      <DependentUpon>main.css</DependentUpon>
-    </Content>
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\20150605100403_67065.jpg" />
@@ -476,10 +605,6 @@
     <Content Include="images\logo_03.png" />
     <Content Include="images\search_icon_03.png" />
     <Content Include="js\main.js" />
-    <Content Include="css\main.less" />
-    <Content Include="css\main.css.map">
-      <DependentUpon>main.css</DependentUpon>
-    </Content>
     <Content Include="log4net.config" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="fonts\fontawesome-webfont.woff2" />
