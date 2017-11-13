@@ -2,7 +2,7 @@
 
 (function ($, window) {
 
-    function initWebUpload(item, options) {
+    function initWebUpload(item, options,islocal) {
 
 
         if (!WebUploader.Uploader.support()) {
@@ -55,12 +55,12 @@
             $btn = target.find(".webuploadbtn"), //手动上传按钮备用
             state = "pending";
 
-
+        var url = virtualDirName + "File/UploadFile?" + (islocal == "1" ? "islocal=1" : "");
         var webuploaderoptions = $.extend({
             // swf文件路径
             swf: virtualDirName + "libs/webuploader-0.1.5/Uploader.swf",
             // 文件接收服务端。
-            server: virtualDirName + "File/UploadFile",
+            server: url,
             deleteServer: virtualDirName + "Home/DeleteFile",
             // 选择文件的按钮。可选。
             // 内部根据当前运行是创建，可能是input元素，也可能是flash.
@@ -119,6 +119,10 @@
                 uploader.removeFile(file);
                 if (options.callback) {
                     var url = virtualDirName + 'Ashx/ThumbImage.ashx?FID=' + response.result + '&W=80&H=80';
+                    if (islocal == "1") {
+                        var url = virtualDirName + 'Content/images/header/' + response.result ;
+                    }
+                   
                     file.url = url;
                     file.fileId = response.result;
                     switch (file.ext) {
@@ -205,12 +209,12 @@
         return uploader;
     }
 
-    $.fn.powerWebUpload = function (options) {
+    $.fn.powerWebUpload = function (options,islocal) {
         var ele = this;
         if (typeof WebUploader == "undefined") {
-          return  initWebUpload(ele, options);
+            return initWebUpload(ele, options, islocal);
         } else {
-            return initWebUpload(ele, options);
+            return initWebUpload(ele, options, islocal);
         }
     };
 

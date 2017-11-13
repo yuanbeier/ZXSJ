@@ -39,7 +39,7 @@
                     args.callback(response);
                 }
             }
-        });
+        }, @(Model.Islocal   ? "1" : "" ));
 
         @{
             if (@Model.ActivityInstanceId.HasValue)

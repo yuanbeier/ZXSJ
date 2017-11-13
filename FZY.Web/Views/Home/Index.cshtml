@@ -1,8 +1,109 @@
-﻿@using Abp.Web.Mvc.Extensions
-@using Microsoft.Owin.Security
-@{
-    ViewBag.ActiveMenu = "Home"; //The menu item will be active for this page.
-}
-<!-- 代码 开始 -->
+﻿@using FZY.WebSite.Dto;
+@model List<HomePicOutput>
+    @{
+        ViewBag.ActiveMenu = "Home"; //The menu item will be active for this page.
+    }
+    <!-- 代码 开始 -->
+
+    <div class="q_slider">
+        <div class="q_slider_inner">
+            <div id="qode-home-slider-3" class="carousel slide fade  responsive_height q_auto_start   header_not_transparent" data-slide_animation="6000" data-height='600' data-parallax="no" style="height: 600px;">
+                <div class="qode_slider_preloader">
+                    <div class="ajax_loader">
+                        <div class="ajax_loader_1">
+                            <div class="pulse">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-inner relative_position">
+                    @foreach (var item in Model)
+                    {
+                        <div class="item dark" data-navigation-color="#000000" style="height: 600px;">
+                            <div class="image" style="background-image:url(Content/images/header/@item.ImageUrl);">
+                                <img src="~/Content/images/header/@item.ImageUrl" alt="Home">
+                            </div>
+                        </div>
+                    }
+                  
+
+                    @*<div class="item dark" data-navigation-color="#000000" style="height: 600px;">
+                        <div class="image" style="background-image:url(Content/images/header/udc2.jpg);">
+                            <img src="~/Content/images/header/udc2.jpg" alt="Home2">
+                        </div>
+                    </div>
+
+                    <div class="item dark" data-navigation-color="#000000" style="height: 600px;">
+                        <div class="image" style="background-image:url(Content/images/header/udc3.jpg);">
+                            <img src="~/Content/images/header/udc3.jpg" alt="Home3">
+                        </div>
+                    </div>
+
+                    <div class="item dark" data-navigation-color="#000000" style="height: 600px;">
+                        <div class="image" style="background-image:url(Content/images/header/udc4.jpg);">
+                            <img src="~/Content/images/header/udc4.jpg" alt="Home4">
+                        </div>
+                    </div>
+
+                    <div class="item dark" data-navigation-color="#000000" style="height: 600px;">
+                        <div class="image" style="background-image:url(Content/images/header/udc5.jpg);">
+                            <img src="~/Content/images/header/udc5.jpg" alt="Home5">
+                        </div>
+                    </div>*@
+
+                </div>
 
 
+                <ol class="carousel-indicators" data-start="opacity: 1;" data-300="opacity:0;">
+                    @foreach (var item in Model)
+                    {
+                        int i = 0;
+                        <li data-target="#qode-home-slider-3" data-slide-to="i" class=@(i==0?"active":"")></li>
+                        i++;
+                    }
+                    @*<li data-target="#qode-home-slider-3" data-slide-to="1"></li>
+                    <li data-target="#qode-home-slider-3" data-slide-to="2"></li>
+                    <li data-target="#qode-home-slider-3" data-slide-to="3"></li>
+                    <li data-target="#qode-home-slider-3" data-slide-to="4"></li>*@
+                </ol>
+
+                <a class="left carousel-control" href="#qode-home-slider-3" data-slide="prev" data-start="opacity: 0.35;" data-300="opacity:0;">
+                    <span class="prev_nav"><i class="fa fa-angle-left"></i></span>
+                    <span class="thumb_holder">
+                        <span class="thumb_top clearfix">
+                            <span class="arrow_left">
+                                <i class="fa fa-angle-left"></i>
+                            </span>
+
+                            <span class="numbers">
+                                <span class="prev"></span>
+                            </span>
+                        </span>
+
+                        <span class="img_outer">
+                            <span class="img"></span>
+                        </span>
+                    </span>
+                </a><a class="right carousel-control" href="#qode-home-slider-3" data-slide="next" data-start="opacity: 0.35;" data-300="opacity:0;">
+                    <span class="next_nav">
+                        <i class="fa fa-angle-right"></i>
+                    </span>
+                    <span class="thumb_holder">
+                        <span class="thumb_top clearfix">
+                            <span class="numbers">
+                                <span class="next">
+                                </span>
+                            </span>
+
+                            <span class="arrow_right">
+                                <i class="fa fa-angle-right"></i>
+                            </span>
+                        </span><span class="img_outer"><span class="img"></span></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+  

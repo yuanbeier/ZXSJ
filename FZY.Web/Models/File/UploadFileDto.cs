@@ -31,5 +31,10 @@
         /// 上传类型
         /// </summary>
         public string UploadContentType { set; get; }
+
+        /// <summary>
+        /// 是否存本地
+        /// </summary>
+        public bool Islocal { set; get; }
     }
 }

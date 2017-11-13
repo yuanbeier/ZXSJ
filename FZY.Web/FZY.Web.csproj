@@ -533,6 +533,7 @@
     <Content Include="Areas\Admin\Views\Product\Add.cshtml" />
     <Content Include="Areas\Admin\Views\Product\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Product\Edit.cshtml" />
+    <Content Include="Views\Home\Index.js" />
     <Content Include="WebServices\RemoteFileStorageService.asmx" />
     <Content Include="Areas\Admin\Views\Category\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Category\Add.cshtml" />
@@ -560,7 +561,6 @@
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Views\Home\lrtk.css" />
     <Content Include="Content\reset.css" />
     <Content Include="Content\style.css" />
     <Content Include="Content\themes\base\accordion.css" />
@@ -667,7 +667,6 @@
       <DependentUpon>Login.css</DependentUpon>
     </Content>
     <Content Include="Views\Account\Register.js" />
-    <Content Include="Views\Home\koala.js" />
     <Content Include="Scripts\terminator2.js" />
     <Content Include="Views\Product\Index.css" />
     <Content Include="Views\Product\Index.js" />

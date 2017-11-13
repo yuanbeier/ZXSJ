@@ -9,16 +9,16 @@ var topevery = {
      * @returns {} 
      */
     ajaxLoading: function () {
-        $("<div class=\"datagrid-mask\"></div>").css({ display: "block", width: "100%", height: $(window).height() }).appendTo("body");
-        $("<div class=\"datagrid-mask-msg\"></div>").html("正在处理，请稍候...").appendTo("body").css({ display: "block", left: ($(document.body).outerWidth(true) - 190) / 2, top: ($(window).height() - 45) / 2 });
+        jQuery("<div class=\"datagrid-mask\"></div>").css({ display: "block", width: "100%", height: jQuery(window).height() }).appendTo("body");
+        jQuery("<div class=\"datagrid-mask-msg\"></div>").html("正在处理，请稍候...").appendTo("body").css({ display: "block", left: (jQuery(document.body).outerWidth(true) - 190) / 2, top: (jQuery(window).height() - 45) / 2 });
     },
     /**
      * 遮罩层关闭
      * @returns {} 
      */
     ajaxLoadEnd: function () {
-        $(".datagrid-mask").remove();
-        $(".datagrid-mask-msg").remove();
+        jQuery(".datagrid-mask").remove();
+        jQuery(".datagrid-mask-msg").remove();
     },
     /**
      * 
@@ -34,8 +34,8 @@ var topevery = {
             topevery.ajaxLoading();
         }
         args.url = virtualDirName + args.url;
-        args = $.extend({}, { type: "POST", dataType: "json" }, args);
-        $.ajax(args).done(function(data) {
+        args = jQuery.extend({}, { type: "POST", dataType: "json" }, args);
+        jQuery.ajax(args).done(function(data) {
                 if (isShowLoading) {
                     topevery.ajaxLoadEnd();
                 }
@@ -62,11 +62,11 @@ var topevery = {
     },
     serializeObject : function (form) {
         var o = {};
-        $.each(form.serializeArray(), function (index) {
+        jQuery.each(form.serializeArray(), function (index) {
             if (o[this['name']]) {
-                o[this['name']] = o[this['name']] + "," + $.trim(this['value']);
+                o[this['name']] = o[this['name']] + "," + jQuery.trim(this['value']);
             } else {
-                o[this['name']] =$.trim(this['value']);
+                o[this['name']] =jQuery.trim(this['value']);
             }
         });
         return o;
@@ -81,7 +81,7 @@ var topevery = {
    * @returns {} 
    */
     setUploadFile : function (moduleId, keyId, activityInstanceId,target) {
-        target = $("#"+target);
+        target = jQuery("#"+target);
         topevery.ajax({
             type: "POST",
             url: "api/services/app/FileRelation/GetFileRDtoList",
@@ -125,7 +125,7 @@ var topevery = {
     },
     /* 获取url参数*/
     getQuery: function(name) {
-        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|jQuery)", "i");
         var r = window.location.search.substr(1).match(reg);
         if (r != null) return decodeURI(r[2]);
         return null;
@@ -157,19 +157,19 @@ var topevery = {
     setParmByLookForm: function(args) {
         try {
             for (var item in args.JSON) {
-                var domtype = $("#" + item).attr("type");
+                var domtype = jQuery("#" + item).attr("type");
                 var dysetMes = "", checkvalue = 0;
-                dysetMes = "$('#" + item + "').html(args.JSON." + item + ");";
+                dysetMes = "jQuery('#" + item + "').html(args.JSON." + item + ");";
                 try {
                     eval(dysetMes);
                 } catch (e) {
                 }
-                dysetMes = "$('#" + item + "').val(args.JSON." + item + ");";
+                dysetMes = "jQuery('#" + item + "').val(args.JSON." + item + ");";
                 try {
                     eval(dysetMes);
                 } catch (e) {
                 }
-                dysetMes = "$('#" + item + "').textbox('setValue',args.JSON." + item + ");";
+                dysetMes = "jQuery('#" + item + "').textbox('setValue',args.JSON." + item + ");";
                 try {
                     eval(dysetMes);
                 } catch (e) {
@@ -207,16 +207,16 @@ var topevery = {
     },
     /*获取提交值*/
     GetFormVal: function(formid) {
-        var objs = $("input,textarea", $("#" + formid));
+        var objs = jQuery("input,textarea", jQuery("#" + formid));
         var postdata = {};
         try {
             objs.each(function() {
-                var o = $(this);
+                var o = jQuery(this);
 
 
                 if (o.attr("type") == "radio" && o.attr("name") != "") {
                     field = o.attr("name");
-                    postdata[field] = $("input[type='radio'][name='" + field + "']:checked").val();
+                    postdata[field] = jQuery("input[type='radio'][name='" + field + "']:checked").val();
                     return true;
                 }
 
@@ -236,7 +236,7 @@ var topevery = {
                     } else if (o.isTag("select")) {
                         postdata[field] = o.val();
                     } else if (o.isTag("radio")) {
-                        postdata[field] = $("input[type='radio'][name='" + field + "']:checked").val();
+                        postdata[field] = jQuery("input[type='radio'][name='" + field + "']:checked").val();
                     }
                 }
             });
@@ -291,7 +291,7 @@ var topevery = {
             alert("Invalid characters in the input string!");
             return "";
         }
-        if ((currencyDigits).match(/^((\d{1,3}(,\d{3})*(.((\d{3},)*\d{1,3}))?)|(\d+(.\d+)?))$/) == null) {
+        if ((currencyDigits).match(/^((\d{1,3}(,\d{3})*(.((\d{3},)*\d{1,3}))?)|(\d+(.\d+)?))jQuery/) == null) {
             alert("Illegal format of digit number!");
             return "";
         }
@@ -390,11 +390,11 @@ var topevery = {
     },
     /* 表单验证 */
     validForm: function(formid) {
-        var objs = $("#" + formid + " input")
+        var objs = jQuery("#" + formid + " input")
         var isValid = true;
         try {
             objs.each(function() {
-                var o = $(this);
+                var o = jQuery(this);
                 if (isValid && typeof (o) != "undefined" && o.attr("id")) {
                     var field = o.attr("id");
                     if (o.isTag("input")) {
@@ -422,7 +422,7 @@ var topevery = {
             var swf = new ActiveXObject('ShockwaveFlash.ShockwaveFlash');
             if (swf) {
                 hasFlash = 1;
-                VSwf = swf.GetVariable("$version");
+                VSwf = swf.GetVariable("jQueryversion");
                 flashVersion = parseInt(VSwf.split(" ")[1].split(",")[0]);
             }
         } else {
@@ -458,11 +458,11 @@ var topevery = {
     },
     ///json转换成对象
     form2Json: function(id) {
-        var arr = $("#" + id).serializeArray();
+        var arr = jQuery("#" + id).serializeArray();
         var jsonStr = "";
         jsonStr += '{';
         for (var i = 0; i < arr.length; i++) {
-            jsonStr += '"' + arr[i].name + '":"' + $.trim(arr[i].value) + '",';
+            jsonStr += '"' + arr[i].name + '":"' + jQuery.trim(arr[i].value) + '",';
         }
         jsonStr = jsonStr.substring(0, (jsonStr.length - 1));
         jsonStr += '}';
@@ -524,8 +524,8 @@ var topevery = {
     },
     ///清空查询数据，并且查询
     Clear: function (myform, table) {
-        $("#" + myform + "").form('clear');
-        $("#" + table + "").datagrid('load');
+        jQuery("#" + myform + "").form('clear');
+        jQuery("#" + table + "").datagrid('load');
     },
     ///附件展示公共方法  id  申请表主键编号，type 相关模块，attachmentId  要绑定内容的编号  wodth 图片宽度
     PicturesShow: function(id, type, attachmentId, width,height) {
@@ -573,7 +573,7 @@ var topevery = {
                         break;
                     }
                 }
-                $("#" + attachmentId + "").append(html);
+                jQuery("#" + attachmentId + "").append(html);
             } else {
                 error();
             }
@@ -600,7 +600,7 @@ var topevery = {
                     html += "<li><a title=\"" + data[i].fileName + "\" href=\"" + data[i].imageShowUrl + "\" target=\"_blank\"><img width='" + width + "' height='" + height + "' href=\"" + data[i].fileDownUrl + "\" src=\"" + data[i].imageShowUrl + "\"> <img/></a><p>" + data[i].fileName + "</p></li>"
                 }
                 html += "</ul>";
-                $("#" + attachmentId + "").append(html);
+                jQuery("#" + attachmentId + "").append(html);
             } else {
                 error();
             }

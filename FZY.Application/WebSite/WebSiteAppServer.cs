@@ -81,9 +81,7 @@ namespace FZY.WebSite
                 product.Description = input.Description;
                 product.Name = input.Name;
                 product.Package = input.Package;
-                product.Style = input.Style;
                 product.Sort = input.Sort;
-                product.Size = input.Size;
                 FileRelationRepository.Delete(x => x.KeyId == input.Id.Value && (x.ModuleId== ModuleType.ProductMan || x.ModuleId == ModuleType.ProductDetail));
             }
             else
@@ -164,7 +162,7 @@ namespace FZY.WebSite
                 await _categoryRepository.InsertAsync(category);
                 CurrentUnitOfWork.SaveChanges();
             }
-            await AddFileRelationAsync(input.FileId, category.Id, ModuleType.Category);
+            //await AddFileRelationAsync(input.FileId, category.Id, ModuleType.Category);
         }
 
         public async Task<PagedResultOutputDto<CategoryOutput>> GetCategoryListAsync(GetProductListInput input)
