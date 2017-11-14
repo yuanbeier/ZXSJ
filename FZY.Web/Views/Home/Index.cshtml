@@ -56,10 +56,11 @@
 
 
                 <ol class="carousel-indicators" data-start="opacity: 1;" data-300="opacity:0;">
+                    @{ int i = 0;}
                     @foreach (var item in Model)
                     {
-                        int i = 0;
-                        <li data-target="#qode-home-slider-3" data-slide-to="i" class=@(i==0?"active":"")></li>
+                       
+                        <li data-target="#qode-home-slider-3" data-slide-to="@i" class=@(i==0?"active":"")></li>
                         i++;
                     }
                     @*<li data-target="#qode-home-slider-3" data-slide-to="1"></li>
