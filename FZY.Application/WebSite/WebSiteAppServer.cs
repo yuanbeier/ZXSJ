@@ -162,7 +162,7 @@ namespace FZY.WebSite
                 await _categoryRepository.InsertAsync(category);
                 CurrentUnitOfWork.SaveChanges();
             }
-            //await AddFileRelationAsync(input.FileId, category.Id, ModuleType.Category);
+          //  await AddFileRelationAsync(input.FileId, category.Id, ModuleType.Category);
         }
 
         public async Task<PagedResultOutputDto<CategoryOutput>> GetCategoryListAsync(GetProductListInput input)

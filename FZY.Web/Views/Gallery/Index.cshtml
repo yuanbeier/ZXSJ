@@ -45,12 +45,11 @@
     <link rel='stylesheet' id='contact-form-7-css' href='~/Content/css/styles.css' type='text/css' media='all' />
     <link rel='stylesheet' id='sb_instagram_styles-css' href='~/Content/css/sb-instagram.css' type='text/css' media='all' />
     <link rel='stylesheet' id='sb_instagram_icons-css' href='~/Content/css/font-awesome.min.css?1' type='text/css' media='all' />
-    <link rel='stylesheet' id='default_style-css' href='~/Content/css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='default_style-css' href='~/Content/css/styles3.css' type='text/css' media='all' />
     <link rel='stylesheet' id='qode-font-awesome-css' href='~/Content/css/font-awesome.min.css' type='text/css' media='all' />
     <link rel='stylesheet' id='stylesheet-css' href='~/Content/css/stylesheet.min.css' type='text/css' media='all' />
     <link rel='stylesheet' id='responsive-css' href='~/Content/css/responsive.min.css' type='text/css' media='all' />
     <link rel='stylesheet' id='js_composer_front-css' href='~/Content/css/js_composer.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='custom_css-css' href='~/Content/css/custom_css.php' type='text/css' media='all' />
     <link rel='stylesheet' id='mpce-theme-css' href='~/Content/css/theme.css' type='text/css' media='all' />
     <link rel='stylesheet' id='mpce-bootstrap-grid-css' href='~/Content/css/bootstrap-grid.min.css' type='text/css' media='all' />
 
@@ -208,6 +207,11 @@
             opacity: 1;
         }
     </style></noscript>
+    <script type="text/javascript">
+        /* 虚拟目录名称 */
+        var  virtualDirName = '@ApplicationPath';
+    </script>
+
 </head>
 
 <body class="page page-id-184 page-template-default ajax_fade page_not_loaded  qode-theme-ver-6.6 wpb-js-composer js-comp-ver-4.4.3 vc_responsive">
@@ -258,13 +262,13 @@
                                         <ul id="menu-top_menu" class="">
                                             <li id="nav-menu-item-14759" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="http://udcbelhasa.com/" class=""><i class="menu_icon fa blank"></i><span>Home</span><span class="plus"></span></a></li>
                                             <li id="nav-menu-item-16090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub narrow">
-                                                <a href="http://udcbelhasa.com/index.php/about" class=""><i class="menu_icon fa blank"></i><span>About</span><span class="plus"></span></a>
+                                                <a href="@Url.Action("Index","About")" class=""><i class="menu_icon fa blank"></i><span>About</span><span class="plus"></span></a>
                                            
                                             </li>
 
-                                            <li id="nav-menu-item-16087" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="http://udcbelhasa.com/index.php/services" class=""><i class="menu_icon fa blank"></i><span>Services</span><span class="plus"></span></a></li>
+                                            <li id="nav-menu-item-16087" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="@Url.Action("Index","Services")" class=""><i class="menu_icon fa blank"></i><span>Services</span><span class="plus"></span></a></li>
 
-                                            <li id="nav-menu-item-16087" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="http://udcbelhasa.com/index.php/gallery" class=""><i class="menu_icon fa blank"></i><span>Gallery</span><span class="plus"></span></a></li>
+                                            <li id="nav-menu-item-16087" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="@Url.Action("Index","Gallery")" class=""><i class="menu_icon fa blank"></i><span>Gallery</span><span class="plus"></span></a></li>
 
                                             <li id="nav-menu-item-14760" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="http://udcbelhasa.com/index.php/contact" class=""><i class="menu_icon fa blank"></i><span>Contact</span><span class="plus"></span></a></li>
                                         </ul>
@@ -1479,7 +1483,8 @@ var _wpcf7 = {"loaderUrl":"~/Content/images/ajax-loader.gif","sending":"Sending 
     <script type='text/javascript' src='~/Content/js/js_composer_front.js'></script>
     <script type='text/javascript' src='~/Content/js/jquery.flexslider-min.js'></script>
     <script type='text/javascript' src='~/Content/js/cherry-plugin.js'></script>
-
+    <script src="~/js/base.js"></script>
+    <script src="~/Views/Gallery/Index.js"></script>
 
 
 </body>

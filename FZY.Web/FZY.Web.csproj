@@ -373,6 +373,7 @@
     <Content Include="Content\css\responsive.min.css" />
     <Content Include="Content\css\sb-instagram.css" />
     <Content Include="Content\css\styles.css" />
+    <Content Include="Content\css\styles3.css" />
     <Content Include="Content\css\stylesheet.min.css" />
     <Content Include="Content\css\style_dynamic.css" />
     <Content Include="Content\css\theme.css" />
@@ -540,6 +541,7 @@
     <Content Include="Areas\Admin\Views\Product\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Product\Edit.cshtml" />
     <Content Include="Views\Gallery\Index.js" />
+    <Content Include="Views\Gallery\List.js" />
     <Content Include="Views\Home\Index.js" />
     <Content Include="WebServices\RemoteFileStorageService.asmx" />
     <Content Include="Areas\Admin\Views\Category\Index.cshtml" />
@@ -732,6 +734,7 @@
     </Compile>
     <Compile Include="Models\Layout\TopMenuViewModel.cs" />
     <Compile Include="Models\WebSite\CategoryModel.cs" />
+    <Compile Include="Models\WebSite\GalleryListDto.cs" />
     <Compile Include="Models\WebSite\HomePicModel.cs" />
     <Compile Include="Models\WebSite\ProductModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -766,6 +769,7 @@
     <Content Include="Views\Shared\_Foot.cshtml" />
     <Content Include="Views\Services\Index.cshtml" />
     <Content Include="Views\Gallery\Index.cshtml" />
+    <Content Include="Views\Gallery\List.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
