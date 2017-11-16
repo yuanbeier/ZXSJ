@@ -1,4 +1,6 @@
-﻿using FZY.Web.Models.WebSite;
+﻿using Abp.AutoMapper;
+using FZY.Sys;
+using FZY.Web.Models.WebSite;
 using FZY.WebSite;
 using FZY.WebSite.Dto;
 using System;
@@ -14,15 +16,20 @@ namespace FZY.Web.Controllers
     {
         private readonly IWebSiteAppServer _webSiteAppServer;
 
-        public GalleryController(IWebSiteAppServer webSiteAppServer)
+        private readonly IFileRelationAppService _relationAppService;
+
+        public GalleryController(IWebSiteAppServer webSiteAppServer, IFileRelationAppService relationAppService)
         {
             _webSiteAppServer = webSiteAppServer;
+            _relationAppService = relationAppService;
         }
 
         // GET: Gallery
-        public ActionResult Index()
+        public async Task<ActionResult> Index(int id)
         {
-            return View();
+           var model =( await _webSiteAppServer.GetProductByIdAsync(id)).MapTo<ProductModel>();
+            ViewBag.FileList  = await _relationAppService.GetFileRDtoList(new Sys.Dto.FileRInput() { KeyId = id, ModuleType = ModuleType.ProductDetail });
+            return View(model);
         }
 
         public async Task<ActionResult> List()

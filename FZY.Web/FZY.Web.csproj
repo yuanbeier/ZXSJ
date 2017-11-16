@@ -540,8 +540,6 @@
     <Content Include="Areas\Admin\Views\Product\Add.cshtml" />
     <Content Include="Areas\Admin\Views\Product\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Product\Edit.cshtml" />
-    <Content Include="Views\Gallery\Index.js" />
-    <Content Include="Views\Gallery\List.js" />
     <Content Include="Views\Home\Index.js" />
     <Content Include="WebServices\RemoteFileStorageService.asmx" />
     <Content Include="Areas\Admin\Views\Category\Index.cshtml" />
@@ -770,6 +768,7 @@
     <Content Include="Views\Services\Index.cshtml" />
     <Content Include="Views\Gallery\Index.cshtml" />
     <Content Include="Views\Gallery\List.cshtml" />
+    <Content Include="Views\Shared\_TopBaGallery.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

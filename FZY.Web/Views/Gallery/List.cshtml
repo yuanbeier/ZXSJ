@@ -262,7 +262,7 @@
                                     </div>
                                     <nav class="main_menu drop_down right">
                                         <ul id="menu-top_menu" class="">
-                                            <li id="nav-menu-item-14759" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="http://udcbelhasa.com/" class=""><i class="menu_icon fa blank"></i><span>Home</span><span class="plus"></span></a></li>
+                                            <li id="nav-menu-item-14759" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="@Url.Action("Index","Home")" class=""><i class="menu_icon fa blank"></i><span>Home</span><span class="plus"></span></a></li>
                                             <li id="nav-menu-item-16090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub narrow">
                                                 <a href="@Url.Action("Index","About")" class=""><i class="menu_icon fa blank"></i><span>About</span><span class="plus"></span></a>
 
@@ -270,7 +270,7 @@
 
                                             <li id="nav-menu-item-16087" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="@Url.Action("Index","Services")" class=""><i class="menu_icon fa blank"></i><span>Services</span><span class="plus"></span></a></li>
 
-                                            <li id="nav-menu-item-16087" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="@Url.Action("Index","Gallery")" class=""><i class="menu_icon fa blank"></i><span>Gallery</span><span class="plus"></span></a></li>
+                                            <li id="nav-menu-item-16087" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="@Url.Action("List","Gallery")" class=""><i class="menu_icon fa blank"></i><span>Gallery</span><span class="plus"></span></a></li>
 
                                             <li id="nav-menu-item-14760" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="http://udcbelhasa.com/index.php/contact" class=""><i class="menu_icon fa blank"></i><span>Contact</span><span class="plus"></span></a></li>
                                         </ul>
@@ -344,7 +344,7 @@
                                                     {
                                                         <article class='mix portfolio_category_@item.CategoryId'>
                                                             <div class='image_holder'>
-                                                                <a class='portfolio_link_for_touch' href='#t' target='_self'>
+                                                                <a class='portfolio_link_for_touch' href='@Url.Action("Index","Gallery",new { id=item.Id})' target='_self'>
                                                                     <span class='image'><img width="352" height="281" src="~/Ashx/ThumbImage.ashx?FID=@item.FileId&W=352&H281" class="attachment-full wp-post-image" alt="Junblat Dental Center" /></span>
                                                                 </a>
 
@@ -361,7 +361,7 @@
                                                                             <span class='feature_holder'>
                                                                                 <span class="feature_holder_icons">
                                                                                     <a class='lightbox qbutton small white' title='Junblat Dental Center' href='~/Ashx/ThumbImage.ashx?FID=@item.FileId' data-rel='prettyPhoto[pretty_photo_gallery]'>zoom</a>
-                                                                                    <a class='preview qbutton small white' href='#' target='_self'>view</a>
+                                                                                    <a class='preview qbutton small white' href='@Url.Action("Index","Gallery",new { id=item.Id})' target='_self'>view</a>
                                                                                 </span>
                                                                             </span>
 
@@ -403,70 +403,8 @@
             </div>
 
 
-            <footer>
-                <div class="footer_inner clearfix">
-                    <div class="footer_top_holder">
-                        <div class="footer_top">
-                            <div class="container">
-                                <div class="container_inner">
-                                    <div class="three_columns clearfix">
 
-                                        <div class="column1">
-                                            <div class="column_inner">
-                                                <div id="text-3" class="visible-all-devices widget widget_text">
-                                                    <div class="textwidget">
-                                                        <img class="footer_logo" src="http://udcbelhasa.com/images/FooterLogo.png" width='150' alt="logo" />
-
-                                                        <div class="separator  transparent center  " style="margin-top: 6px;margin-bottom: 2px;"></div>
-
-                                                        <a href="#">
-                                                            P.O. Box 35274, Dubai United Arab Emirates<br />
-                                                            TEL: 04-285 8309<br />TEL: 04-285 2837<br />FAX: 04-285 6079
-                                                        </a><br />
-                                                        Email: <a href="minfo@udcbelhasa.com">info@udcbelhasa.com</a><br />
-
-                                                        <div class="separator  transparent center  " style="margin-top: 12px;margin-bottom: 2px;"></div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="column2">
-                                            <div class="column_inner">
-                                                <div id="text-11" class="visible-all-devices widget widget_text">
-                                                    <div class="textwidget">
-                                                        <font color="#FFFFFF"><b>Company</b></font>
-                                                        <div class="separator  transparent center  " style="margin-top: 3px;margin-bottom: 3px;"></div>
-                                                        <a href="http://udcbelhasa.com/index.php/about">About</a>
-                                                        <div class="separator  transparent center  " style="margin-top: 3px;margin-bottom: 3px;"></div>
-                                                        <a href="http://udcbelhasa.com/index.php/our_philosophy">Our Philosophy</a>
-                                                        <div class="separator  transparent center  " style="margin-top: 3px;margin-bottom: 3px;"></div>
-                                                        <a href="http://udcbelhasa.com/index.php/our_team">Our Team</a>
-                                                        <div class="separator  transparent center  " style="margin-top: 3px;margin-bottom: 3px;"></div>
-                                                        <a href="http://udcbelhasa.com/index.php/machineries">Machineries</a>
-                                                        <div class="separator  transparent center  " style="margin-top: 3px;margin-bottom: 9px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="column3">
-                                            <div class="column_inner">
-                                                <div id="text-10" class="visible-all-devices widget widget_text">
-                                                    <h5>Copyright</h5>
-                                                    <div class="textwidget">© 2015 United Decoration Company L.L.C.</div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+            @Html.Partial("_Foot")
         </div>
     </div>
     <script type='text/javascript' src='~/Content/js/cherry.lazy-load.js'></script>
