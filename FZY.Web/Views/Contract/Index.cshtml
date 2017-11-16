@@ -1,19 +1,15 @@
-﻿@{ 
+﻿@{
     Layout = null;
 }
-@using System.Web.Optimization
-@using Abp.Timing
-@using Abp.Web.Mvc.Extensions
-
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
     <meta charset="UTF-8" />
 
-    <title>About</title>
+    <title>Contact</title>
 
 
-    <meta name="description" content="About">
+    <meta name="description" content="Contact">
     <meta name="keywords" content="joinery, interior design, fit out works, residential, commercial">
 
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
@@ -58,7 +54,6 @@
     <script type='text/javascript' src='~/Content/js/layerslider.transitions.js'></script>
     <script type='text/javascript' src='~/Content/js/jquery.easing.1.3.js'></script>
     <script type='text/javascript' src='~/Content/js/jquery.elastislide.js'></script>
-
 
     <style>
         *[class^=bf], *[class^=bf]:before, *[class^=bf]:after {
@@ -186,16 +181,17 @@
         jQuery(document).ready(
             function () {
                 if (jQuery(".brandfolder").length > 0) {
-                    brandfolder_loadScript("~/content/js/bf.min.js", brandfolder_null);
+                    brandfolder_loadScript("~/Content/bf.min.js", brandfolder_null);
                 }
 
                 if (jQuery("#brandfolder-embed-iframe").length > 0) {
-                    brandfolder_loadScript("~/content/js/iframeheight.js", brandfolder_resize);
+                    brandfolder_loadScript("~/Content/js/iframeheight.js", brandfolder_resize);
                 }
             });
 
     </script>
     <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
+    <!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://udcbelhasa.com/css/vc-ie8.css" media="screen"><![endif]-->
     <noscript>
     <style>
         .wpb_animate_when_almost_visible {
@@ -209,19 +205,7 @@
     <div class="ajax_loader"><div class="ajax_loader_1"><div class="pulse"></div></div></div>
     <div class="wrapper">
         <div class="wrapper_inner">
-            <!-- Google Analytics start -->
-            <script>
-                var _gaq = _gaq || [];
-                _gaq.push(['_setAccount', '258-891-6529']);
-                _gaq.push(['_trackPageview']);
 
-                (function () {
-                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-                })();
-            </script>
-            <!-- Google Analytics end -->
 
 
             <header class=" scroll_header_top_area  stick transparent scrolled_not_transparent page_header">
@@ -251,18 +235,22 @@
 
                                     <nav class="main_menu drop_down right">
                                         <ul id="menu-top_menu" class="">
+
                                             <li id="nav-menu-item-14759" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="@Url.Action("Index","Home")" class=""><i class="menu_icon fa blank"></i><span>Home</span><span class="plus"></span></a></li>
-                                            <li id="nav-menu-item-16090" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children  has_sub narrow">
-                                                <a href="@Url.Action("Index","About")" class=" current ">
-                                                    <i class="menu_icon fa blank"></i><span>About</span><span class="plus"></span>
-                                                </a>
-                                                
+                                            <li id="nav-menu-item-16090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub narrow">
+                                                <a href="@Url.Action("Index","About")" class=""><i class="menu_icon fa blank"></i><span>About</span><span class="plus"></span></a>
                                             </li>
-                                            <li id="nav-menu-item-16088" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="@Url.Action("Index","Services")" class=""><i class="menu_icon fa blank"></i><span>Services</span><span class="plus"></span></a></li>
+
+                                         
+
+                                            <li id="nav-menu-item-16088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  has_sub narrow"><a href="@Url.Action("Index","Services")" class=""><i class="menu_icon fa blank"></i><span>Service</span><span class="plus"></span></a></li>
 
                                             <li id="nav-menu-item-16087" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="@Url.Action("List","Gallery")" class=""><i class="menu_icon fa blank"></i><span>Gallery</span><span class="plus"></span></a></li>
 
-                                            <li id="nav-menu-item-14760" class="menu-item menu-item-type-post_type menu-item-object-page  narrow"><a href="@Url.Action("Index","Contract")" class=""><i class="menu_icon fa blank"></i><span>Contact</span><span class="plus"></span></a></li>
+                                            <li id="nav-menu-item-14760" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1452 current_page_item  narrow"><a href="@Url.Action("Index","Contract")" class=" current "><i class="menu_icon fa blank"></i><span>Contact</span><span class="plus"></span></a></li>
+
+                                            </a>
+                                            </li>
                                         </ul>
                                     </nav>
 
@@ -272,13 +260,13 @@
                                             <li id="mobile-menu-item-14759" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="@Url.Action("Index","Home")" class=""><span>Home</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
 
                                             <li id="mobile-menu-item-16090" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children  has_sub">
-                                                <a href="@Url.Action("Index","Home")" class=" current "><span>About</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
-                                         
+                                                <a href="@Url.Action("Index","About")" class=" current "><span>About</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                             
                                             </li>
 
+                                      
 
-
-                                            <li id="mobile-menu-item-16086" class="menu-item menu-item-type-post_type menu-item-object-page "><a href=""@Url.Action("Index","Services")" class=""><span>Services</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
+                                            <li id="mobile-menu-item-16086" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="@Url.Action("Index","Services")" class=""><span>Services</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
 
                                             <li id="mobile-menu-item-16087" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="@Url.Action("List","Gallery")" class=""><span>Gallery</span></a><span class="mobile_arrow"><i class="fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span></li>
 
@@ -292,9 +280,8 @@
                     </div>
                 </div>
 
-
-
             </header>
+
             <a id='back_to_top' href='#'>
                 <span class="fa-stack">
                     <i class="fa fa-arrow-up" style=""></i>
@@ -303,114 +290,111 @@
 
 
 
-            <div class="content ">
-
-                <div class="content_inner  ">
-                    <div class="title_outer animate_title_area" data-height="500" style="opacity:0;height:100px;">
-                        <div class="title title_size_large  position_left has_fixed_background " style="background-size:1920px auto;background-image:url(images/about_header.jpg);height:500px;">
-
-                            <div class="image not_responsive"><img src="~/images/about_header.jpg" alt="&nbsp;" /> </div>
-
-                            <div class="title_holder" style="padding-top:43px;height:457px;">
-                                <div class="container">
-                                    <div class="container_inner clearfix">
-                                        <div class="title_subtitle_holder">
-                                            <div class="title_subtitle_holder_inner">
-                                                <h1 style="color:#282828"><span>About<font color="#9b865e"><b>us</b></font></br></span></h1>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+            <div class="content content_top_margin_none">
+                <div class="container">
+                    <div class="container_inner full_map default_template_holder clearfix">
+                        <div class="contact_detail">
+                            <div class="contact_section contact_section_position_center">
+                                <p>&nbsp;</p>
+                                <h4>Get in touch.</h4>
                             </div>
+                            <div class="two_columns_33_66 clearfix grid2">
+                                <div class="column1">
+                                    <div class="column_inner">
+                                        <div class="contact_info">
+                                            <div class="vc_row wpb_row section vc_row-fluid" style=' text-align:left;'>
+                                                <div class=" full_section_inner clearfix">
+                                                    <div class="vc_col-sm-12 wpb_column vc_column_container ">
+                                                        <div class="wpb_wrapper">
 
-                        </div>
-                    </div>
-                    <div class="full_width">
-                        <div class="full_width_inner">
-                            <div class="vc_row wpb_row section vc_row-fluid" style=' text-align:left;'>
-                                <div class=" full_section_inner clearfix">
-                                    <div class="vc_col-sm-12 wpb_column vc_column_container ">
-                                        <div class="wpb_wrapper">
-                                            <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+                                                            <div class="wpb_text_column wpb_content_element ">
+                                                                <div class="wpb_wrapper">
+                                                                    <h3>United Decoration Company L.L.C.</h3>
+
+                                                                </div>
+                                                            </div> <div class="separator  transparent center  " style="margin-top: 6px;margin-bottom: 6px;"></div>
+
+                                                            <div class="wpb_text_column wpb_content_element ">
+                                                                <div class="wpb_wrapper">
+                                                                    <p>
+                                                                        <a href="#">
+                                                                            P.O. Box 35274, Dubai United Arab Emirates<br />
+                                                                            TEL: 04-285 8309<br />TEL: 04-285 2837<br />FAX: 04-285 6079
+                                                                        </a><br />
+                                                                        Email: <a href="minfo@udcbelhasa.com">info@udcbelhasa.com</a><br />
+                                                                    </p>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="separator  transparent center  " style="margin-top: 6px;margin-bottom: 6px;"></div>
+
+                                                            <div class="separator  transparent center  " style="margin-top: 6px;margin-bottom: 6px;"></div>
+                                                            <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
 
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="vc_row wpb_row section vc_row-fluid" style=' text-align:left;'>
-                                <div class=" full_section_inner clearfix">
-                                    <div class="vc_col-sm-12 wpb_column vc_column_container ">
-                                        <div class="wpb_wrapper">
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="vc_row wpb_row section vc_row-fluid" style=' text-align:left;'>
-                                <div class=" full_section_inner clearfix">
-                                    <div class="vc_col-sm-12 wpb_column vc_column_container ">
-                                        <div class="wpb_wrapper">
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="vc_row wpb_row section vc_row-fluid grid_section" style=' padding-top:87px; text-align:left;'>
-                                <div class=" section_inner clearfix">
-                                    <div class='section_inner_margin clearfix'>
-                                        <div class="vc_col-sm-4 wpb_column vc_column_container ">
-                                            <div class="wpb_wrapper">
-                                                <div class="separator  transparent center  " style="margin-top: 7px;margin-bottom: 0px;"></div>
-
-                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                    <img width="346" height="259" src="~/images/about_us.jpg" class="vc_single_image-img attachment-full" alt="01_Research" />
+                                                        </div>
+                                                    </div>
                                                 </div>
-
-                                                <div class="separator  transparent center  " style="margin-top: 15px;margin-bottom: 0px;"></div>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="vc_col-sm-8 wpb_column vc_column_container ">
-                                            <div class="wpb_wrapper">
-
-                                                <div class="wpb_text_column wpb_content_element ">
-                                                    <div class="wpb_wrapper">
-                                                        <h2 style="text-align: left;"><span style="color: #282828;"><span class="highGT">About us</h2>
-
-                                                    </div>
-                                                </div> <div class="separator  small left  " style="margin-top: 7px;margin-bottom: 34px;background-color: #9b865e;"></div>
-
-                                                <div class="wpb_text_column wpb_content_element ">
-                                                    <div class="wpb_wrapper">
-                                                        <p>United Decoration Company L.L.C.(UDC), is an interior design and a fit out contractor which was incorporated in 1981 as a limited liability company, and a Subsidiary of Belhasa International Co. L.L.C. </p>
-                                                        <p>&nbsp;</p>
-                                                        <p>Within over 30 years of service as an Interior Design firm, we have developed our expertise in unique interior and joinery fit out works for commercial, residential and governmental facilities. We also specialize in Turnkey projects that can cater quality output that meets the standard of our clients, with the highest quality of custom made furniture works in the UAE and Overseas.</p>
-                                                        <p>&nbsp;</p>
-                                                        <p>Through innovation in workmanship and strategic knowledge in construction industry, UDC will continue to share our passion in providing good and quality service and help contribute a better society in the future.</p>
-                                                        <p>&nbsp;</p>
-                                                    </div>
-                                                </div> <div class="separator  transparent center  " style="margin-top: 20px;margin-bottom: 16px;"></div>
-
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="column2">
+                                    <div class="column_inner">
+                                        <div class="contact_form">
+                                            <h5>Contact Us</h5>
+                                            <font color="red"></font>
+                                            <font color="red"></font>
 
+                                            <form action="index.php/contact/send_email" method="post" class="form-validate form-horizontal well">
+
+                                                <div class="two_columns_50_50 clearfix">
+                                                    <div class="column1">
+                                                        <div class="column_inner">
+                                                            <input type="text" class="requiredField" name="name" id="name" value="" placeholder="Name *" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="column2">
+                                                        <div class="column_inner">
+                                                            <input type="text" class="requiredField" name="tel" id="tel" value="" placeholder="Tel *" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="two_columns_50_50 clearfix">
+                                                    <div class="column1">
+                                                        <div class="column_inner">
+                                                            <input type="text" class="requiredField email" name="email" id="email" value="" placeholder="Email *" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="column2">
+                                                        <div class="column_inner">
+                                                            <input type="text" name="mobile" id="mobile" value="" placeholder="Mobile" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <textarea name="message" id="message" rows="10" placeholder="Message"></textarea>
+                                                <span class="submit_button_contact">
+                                                    <input class="qbutton contact_form_button" type="submit" value="Contact Us" />
+                                                </span>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
-
-
-
-
-
-
-
-
                         </div>
-
-
                     </div>
                 </div>
+
+                <script type="text/javascript">
+jQuery(document).ready(function($){
+    $j('form#contact-form').submit(function(){
+      
+    });
+});
+                </script>
+
                 <div class="content_bottom">
                 </div>
 
@@ -418,20 +402,21 @@
         </div>
 
         @Html.Partial("_Foot")
+    
     </div>
     </div>
-    <script type='text/javascript' src='~/Contentjs/cherry.lazy-load.js'></script>
-    <script type='text/javascript' src='~/Contentjs/device.min.js'></script>
-    <script type='text/javascript' src='~/Contentjs/jquery.mousewheel.min.js'></script>
-    <script type='text/javascript' src='~/Contentjs/jquery.simplr.smoothscroll.min.js'></script>
-    <script type='text/javascript' src='~/Contentjs/cherry.parallax.js'></script>
-    <script type='text/javascript' src='~/Contentjs/jquery.form.min.js'></script>
+    <script type='text/javascript' src='~/Content/js/cherry.lazy-load.js'></script>
+    <script type='text/javascript' src='~/Content/js/device.min.js'></script>
+    <script type='text/javascript' src='~/Content/js/jquery.mousewheel.min.js'></script>
+    <script type='text/javascript' src='~/Content/js/jquery.simplr.smoothscroll.min.js'></script>
+    <script type='text/javascript' src='~/Content/js/cherry.parallax.js'></script>
+    <script type='text/javascript' src='~/Content/js/jquery.form.min.js'></script>
     <script type='text/javascript'>
-                /* <![CDATA[ */
-                var _wpcf7 = { "loaderUrl": "~/Contentimages/ajax-loader.gif", "sending": "Sending ..." };
+        /* <![CDATA[ */
+        var _wpcf7 = { "loaderUrl": "~/Content/images/ajax-loader.gif", "sending": "Sending ..." };
 /* ]]> */
     </script>
-    <script type='text/javascript' src='~/Contentjs/scripts.js'></script>
+    <script type='text/javascript' src='~/Content/js/scripts.js'></script>
 
     <script type='text/javascript' src='~/Content/js/qode-like.js'></script>
     <script type='text/javascript' src='~/Content/js/plugins.js'></script>
@@ -443,7 +428,7 @@
     <script type='text/javascript' src='~/Content/js/TweenLite.min.js'></script>
     <script type='text/javascript' src='~/Content/js/ScrollToPlugin.min.js'></script>
     <script type='text/javascript' src='~/Content/js/smoothPageScroll.js'></script>
-                                                 
+
     <script type='text/javascript' src='~/Content/js/default_dynamic.php.js'></script>
     <script type='text/javascript' src='~/Content/js/default.min.js'></script>
     <script type='text/javascript' src='~/Content/js/custom_js.php.js'></script>
@@ -453,4 +438,4 @@
     <script type='text/javascript' src='~/Content/js/jquery.flexslider-min.js'></script>
     <script type='text/javascript' src='~/Content/js/cherry-plugin.js'></script>
 </body>
-</html>
+</html>			
