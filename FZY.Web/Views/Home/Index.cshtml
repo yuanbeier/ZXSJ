@@ -1,4 +1,4 @@
-﻿@using FZY.WebSite.Dto;
+﻿@using FZY.WebSite.Dto
 @model List<HomePicOutput>
     @{
         ViewBag.ActiveMenu = "Home"; //The menu item will be active for this page.
@@ -83,3 +83,81 @@
     </div>
 
   
+<div class="full_width">
+    <div class="full_width_inner">
+
+        <div class="vc_row wpb_row section vc_row-fluid" style=' padding-top:52px; text-align:left;'>
+            <div class=" full_section_inner clearfix">
+                <div class="vc_col-sm-12 wpb_column vc_column_container ">
+                    <div class="wpb_wrapper">
+
+                        <div class=" ">
+                            <div class="wpb_wrapper">
+                                <h2 style="text-align: center;"><a title="CASE STUDIES" href="http://udcbelhasa.com/index.php/gallery">OUR PROJECTS</a></h2>
+
+                            </div>
+                        </div> <div class="separator  small center  " style="margin-top: 7px;margin-bottom: 45px;background-color: #9b865e;"></div>
+                        <div class='portfolio_slider_holder clearfix'>
+                            <div class='portfolio_slider'>
+                                <ul class='portfolio_slides'>
+                                    @foreach (ProductOutput item in @ViewBag.FileList)
+                                    {
+                                        <li class='item'>
+                                            <div class='image_holder'>
+
+                                                <span class='image'>
+                                                    <span class='image_pixel_hover'></span>
+                                                    <a href='@Url.Action("Index","Gallery",new { id=item.Id})' target='_self'>
+                                                        <img width="570" height="512" src="~/Ashx/ThumbImage.ashx?FID=@item.FileId&W=352&H281" class="attachment-portfolio-square wp-post-image" alt="Featured" />
+                                                    </a>
+                                                </span>
+
+                                                <div class='hover_feature_holder'>
+                                                    <div class="hover_feature_holder_outer">
+                                                        <div class="hover_feature_holder_inner">
+                                                            <h3 class="portfolio_title">
+                                                                <a href="@Url.Action("Index","Gallery",new { id=item.Id})" target="_self">@item.Name</a>
+                                                            </h3>
+                                                            <span class="separator small transparent"></span>
+                                                            <div class="project_category">@item.CategoryName</div>
+                                                            <a href="@Url.Action("Index","Gallery",new { id=item.Id})" target="_self" class="qbutton white small">view</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                    }
+                                </ul>
+                                <ul class="caroufredsel-direction-nav">
+
+                                    <li><a id="caroufredsel-prev" class="caroufredsel-prev" href="#"><div><i class="fa fa-angle-left"></i></div></a></li>
+                                    <li><a class="caroufredsel-next" id="caroufredsel-next" href="#"><div><i class="fa fa-angle-right"></i></div></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="vc_row wpb_row section vc_row-fluid grid_section" style=' padding-top:54px; padding-bottom:58px; text-align:left;'>
+            <div class=" section_inner clearfix">
+                <div class='section_inner_margin clearfix'>
+                    <div class="vc_col-sm-12 wpb_column vc_column_container ">
+                        <div class="wpb_wrapper">
+
+                            <div class="wpb_text_column wpb_content_element ">
+                                <div class="wpb_wrapper">
+                                    <h2 style="text-align: center;">United Decoration Company L.L.C</h2>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>	

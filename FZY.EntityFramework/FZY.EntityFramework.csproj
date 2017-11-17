@@ -172,6 +172,10 @@
     <Compile Include="Migrations\201703110927287_Update-Product1.Designer.cs">
       <DependentUpon>201703110927287_Update-Product1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711171555149_addContract.cs" />
+    <Compile Include="Migrations\201711171555149_addContract.Designer.cs">
+      <DependentUpon>201711171555149_addContract.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="FZYDataModule.cs" />
@@ -233,6 +237,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703110927287_Update-Product1.resx">
       <DependentUpon>201703110927287_Update-Product1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711171555149_addContract.resx">
+      <DependentUpon>201711171555149_addContract.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

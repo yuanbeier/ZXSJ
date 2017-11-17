@@ -49,7 +49,6 @@ namespace FZY.WebSite.Dto
         /// </summary>
         public string CreationTime { set; get; }
 
-
         /// <summary>
         /// 排序
         /// </summary>
@@ -66,7 +65,7 @@ namespace FZY.WebSite.Dto
         public int CategoryId { set; get; }
 
         /// <summary>
-        /// 产品类别Id
+        /// 产品类别名称
         /// </summary>
         public string CategoryName { set; get; }
     }

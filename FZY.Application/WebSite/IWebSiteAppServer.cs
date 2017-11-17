@@ -91,5 +91,19 @@ namespace FZY.WebSite
         /// <param name="id"></param>
         /// <returns></returns>
         Task DeleteCategoryAsync(int id);
+
+        /// <summary>
+        /// 新增联系人
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        Task  AddContractAsync(ContractInput input);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        Task<PagedResultOutputDto<ContractOutput>> GetContractListAsync(GetContractListInput input);
     }
 }

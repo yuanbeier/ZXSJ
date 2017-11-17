@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using FZY.Page;
+
+namespace FZY.WebSite.Dto
+{
+    /// <summary>
+    /// /
+    /// </summary>
+    public class GetContractListInput : BasePageInput
+    {
+        /// <summary>
+        /// 产品名称
+        /// </summary>
+        public string Name { set; get; }
+
+    }
+}

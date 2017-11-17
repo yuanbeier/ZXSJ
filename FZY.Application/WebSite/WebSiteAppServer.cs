@@ -26,11 +26,14 @@ namespace FZY.WebSite
 
         private readonly IRepository<Category> _categoryRepository;
 
-        public WebSiteAppServer(IRepository<HomePic> homePicRepository, IRepository<Product> productRepository, IRepository<Category> categoryRepository)
+        private readonly IRepository<Contract> _contractRepository;
+
+        public WebSiteAppServer(IRepository<HomePic> homePicRepository, IRepository<Product> productRepository, IRepository<Category> categoryRepository, IRepository<Contract> contractRepository)
         {
             _homePicRepository = homePicRepository;
             _productRepository = productRepository;
             _categoryRepository = categoryRepository;
+            _contractRepository = contractRepository;
         }
 
 
@@ -101,7 +104,7 @@ namespace FZY.WebSite
         /// <returns></returns>
         public async Task<PagedResultOutputDto<ProductOutput>> GetProductListAsync(GetProductListInput input)
         {
-            var query = _productRepository.GetAll().
+            var query = _productRepository.GetAll().Include(x => x.Category).
                WhereIf(!string.IsNullOrEmpty(input.Name), x => x.Name == input.Name)
                .WhereIf(input.CategoryId.HasValue,x => x.CategoryId == input.CategoryId.Value);
             var count = query.Count();
@@ -198,6 +201,31 @@ namespace FZY.WebSite
                 return;
             }
             await _categoryRepository.DeleteAsync(id);
+        }
+
+        /// <summary>
+        /// 新增联系人
+        /// </summary>
+        /// <param name="input"></param>
+        public async Task AddContractAsync(ContractInput input)
+        {
+            var contract = input.MapTo<Contract>();
+            await _contractRepository.InsertAsync(contract);
+        }
+
+        /// <summary>
+        /// 联系人列表
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        public async Task<PagedResultOutputDto<ContractOutput>> GetContractListAsync(GetContractListInput input)
+        {
+            var query = _contractRepository.GetAll().
+                WhereIf(!string.IsNullOrEmpty(input.Name), x => x.Name == input.Name);
+            var count = query.Count();
+            var result = await query.OrderByDescending(x => x.CreationTime).Skip(input.SkipCount).Take(input.PageCount).ToListAsync();
+            var reusltOut = result.MapTo<List<ContractOutput>>();
+            return new PagedResultOutputDto<ContractOutput>(count, reusltOut);
         }
     }
 }

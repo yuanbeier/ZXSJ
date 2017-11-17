@@ -16,6 +16,7 @@ namespace FZY.Web.Controllers
         public async Task<ActionResult> Index()
         {
             var list =  await _webSiteAppServer.GetHomePicListAsync();
+            ViewBag.FileList = (await _webSiteAppServer.GetProductListAsync(new WebSite.Dto.GetProductListInput() { PageIndex = 1, PageCount = 100 })).Rows;
             return View(list);
         }
 	}

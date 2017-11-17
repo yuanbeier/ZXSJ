@@ -280,7 +280,7 @@
                                                         <article class='mix portfolio_category_@item.CategoryId'>
                                                             <div class='image_holder'>
                                                                 <a class='portfolio_link_for_touch' href='@Url.Action("Index","Gallery",new { id=item.Id})' target='_self'>
-                                                                    <span class='image'><img width="352" height="281" src="~/Ashx/ThumbImage.ashx?FID=@item.FileId&W=352&H281" class="attachment-full wp-post-image" alt="Junblat Dental Center" /></span>
+                                                                    <span class='image'><img width="352" height="281" src="~/Ashx/ThumbImage.ashx?FID=@item.FileId&W=352&H281" class="attachment-full wp-post-image" alt="@item.Name" /></span>
                                                                 </a>
 
                                                                 <span class='text_holder'>

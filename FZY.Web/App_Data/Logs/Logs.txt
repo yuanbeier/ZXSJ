@@ -5484,3 +5484,802 @@ System.Web.HttpCompileException (0x80004005): d:\MySpace\Repos\ZXSJ\FZY.Web\View
    at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
    at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
    at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-11-17 10:27:42,609 [62   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-11-17 10:27:42,609 [62   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 10:27:42,609 [62   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 10:27:42,609 [62   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-11-17 21:50:36,876 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-17 21:50:37,190 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-11-17 21:50:37,195 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Web.FZYWebModule, FZY.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYDataModule, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYCoreModule, FZY.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYApplicationModule, FZY.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Api.FZYWebApiModule, FZY.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:37,204 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-11-17 21:50:37,969 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 21:50:37,969 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 21:50:37,969 [1    ] o.Configuration.LanguageManagementConfig - Converted FZY (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 21:50:37,969 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 21:50:38,433 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FZY.EntityFramework.FZYDbContext, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 21:50:39,051 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-17 21:50:39,061 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-17 21:50:39,062 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-17 21:50:39,064 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FZY
+DEBUG 2017-11-17 21:50:39,064 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-17 21:50:39,117 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 21:50:39,179 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 17 classes define auto mapping attributes
+DEBUG 2017-11-17 21:50:39,179 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicOutput
+DEBUG 2017-11-17 21:50:39,183 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicInput
+DEBUG 2017-11-17 21:50:39,183 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryInput
+DEBUG 2017-11-17 21:50:39,183 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryOutput
+DEBUG 2017-11-17 21:50:39,183 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductOutput
+DEBUG 2017-11-17 21:50:39,183 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductInput
+DEBUG 2017-11-17 21:50:39,184 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-17 21:50:39,184 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-17 21:50:39,184 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.CreateUserInput
+DEBUG 2017-11-17 21:50:39,184 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.UserListDto
+DEBUG 2017-11-17 21:50:39,184 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sys.Dto.FileRDto
+DEBUG 2017-11-17 21:50:39,184 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-11-17 21:50:39,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-11-17 21:50:39,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.CategoryModel
+DEBUG 2017-11-17 21:50:39,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.HomePicModel
+DEBUG 2017-11-17 21:50:39,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ProductModel
+DEBUG 2017-11-17 21:50:39,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-17 21:50:40,272 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.WebSite.IWebSiteAppServer' with service name 'app/webSiteAppServer'.
+DEBUG 2017-11-17 21:50:40,273 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-17 21:50:40,274 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-17 21:50:40,276 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sys.IFileRelationAppService' with service name 'app/fileRelation'.
+DEBUG 2017-11-17 21:50:40,277 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-17 21:50:40,278 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-17 22:15:36,221 [84   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-11-17 22:15:36,223 [84   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 22:15:36,224 [84   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 22:15:36,224 [84   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-11-17 22:19:52,761 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-17 22:19:52,780 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-11-17 22:19:52,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Web.FZYWebModule, FZY.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYDataModule, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,791 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYCoreModule, FZY.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYApplicationModule, FZY.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Api.FZYWebApiModule, FZY.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:52,798 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-11-17 22:19:53,040 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:19:53,040 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:19:53,040 [1    ] o.Configuration.LanguageManagementConfig - Converted FZY (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:19:53,040 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:19:53,388 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FZY.EntityFramework.FZYDbContext, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:19:54,710 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-17 22:19:54,720 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-17 22:19:54,722 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-17 22:19:54,724 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FZY
+DEBUG 2017-11-17 22:19:54,725 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-17 22:19:54,788 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 22:19:54,844 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 17 classes define auto mapping attributes
+DEBUG 2017-11-17 22:19:54,844 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicOutput
+DEBUG 2017-11-17 22:19:54,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicInput
+DEBUG 2017-11-17 22:19:54,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryInput
+DEBUG 2017-11-17 22:19:54,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryOutput
+DEBUG 2017-11-17 22:19:54,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductOutput
+DEBUG 2017-11-17 22:19:54,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductInput
+DEBUG 2017-11-17 22:19:54,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-17 22:19:54,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-17 22:19:54,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.CreateUserInput
+DEBUG 2017-11-17 22:19:54,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.UserListDto
+DEBUG 2017-11-17 22:19:54,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sys.Dto.FileRDto
+DEBUG 2017-11-17 22:19:54,848 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-11-17 22:19:54,849 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-11-17 22:19:54,849 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.CategoryModel
+DEBUG 2017-11-17 22:19:54,849 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.HomePicModel
+DEBUG 2017-11-17 22:19:54,849 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ProductModel
+DEBUG 2017-11-17 22:19:54,849 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-17 22:19:56,048 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.WebSite.IWebSiteAppServer' with service name 'app/webSiteAppServer'.
+DEBUG 2017-11-17 22:19:56,050 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-17 22:19:56,051 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-17 22:19:56,052 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sys.IFileRelationAppService' with service name 'app/fileRelation'.
+DEBUG 2017-11-17 22:19:56,053 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-17 22:19:56,054 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-11-17 22:20:38,492 [7    ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='e7627ca4-c934-4eaa-b61c-a82c00078ab7', string extensionName='.jpg', long position='0', int readCount='262144')
+ERROR 2017-11-17 22:20:38,492 [10   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='b0f03bcf-b0f4-4953-90cb-a82c0007d945', string extensionName='.jpg', long position='0', int readCount='262144')
+ERROR 2017-11-17 22:20:38,497 [12   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='a5014501-727e-4f81-b1ee-a82c00078a86', string extensionName='.jpg', long position='0', int readCount='262144')
+DEBUG 2017-11-17 22:20:38,538 [10   ] Topevery_FMP_Framework                   - LogicFileID='b0f03bcf-b0f4-4953-90cb-a82c0007d945' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\14\b0f03bcf-b0f4-4953-90cb-a82c0007d945.jpg'
+DEBUG 2017-11-17 22:20:38,538 [12   ] Topevery_FMP_Framework                   - LogicFileID='a5014501-727e-4f81-b1ee-a82c00078a86' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\14\a5014501-727e-4f81-b1ee-a82c00078a86.jpg'
+DEBUG 2017-11-17 22:20:38,538 [7    ] Topevery_FMP_Framework                   - LogicFileID='e7627ca4-c934-4eaa-b61c-a82c00078ab7' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\14\e7627ca4-c934-4eaa-b61c-a82c00078ab7.jpg'
+ERROR 2017-11-17 22:20:38,547 [10   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='65861'
+ERROR 2017-11-17 22:20:38,547 [7    ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='258206'
+ERROR 2017-11-17 22:20:38,547 [12   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='90934'
+DEBUG 2017-11-17 22:25:22,829 [25   ] Topevery_FMP_Framework                   - LogicFileID='c8dc2a75-4f0d-46a3-ba06-a82e01718506' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\c8dc2a75-4f0d-46a3-ba06-a82e01718506.jpg'
+DEBUG 2017-11-17 22:25:22,856 [25   ] Topevery_FMP_Framework                   - LogicFileID='c8dc2a75-4f0d-46a3-ba06-a82e01718506' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\c8dc2a75-4f0d-46a3-ba06-a82e01718506.jpg'
+ERROR 2017-11-17 22:25:22,925 [19   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='c8dc2a75-4f0d-46a3-ba06-a82e01718506', string extensionName='.jpg', long position='0', int readCount='262144')
+DEBUG 2017-11-17 22:25:22,925 [19   ] Topevery_FMP_Framework                   - LogicFileID='c8dc2a75-4f0d-46a3-ba06-a82e01718506' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\c8dc2a75-4f0d-46a3-ba06-a82e01718506.jpg'
+ERROR 2017-11-17 22:25:22,925 [19   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='63286'
+DEBUG 2017-11-17 22:25:35,105 [25   ] Topevery_FMP_Framework                   - LogicFileID='3f379322-8ed8-4255-821b-a82e01719376' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\3f379322-8ed8-4255-821b-a82e01719376.jpg'
+DEBUG 2017-11-17 22:25:35,108 [25   ] Topevery_FMP_Framework                   - LogicFileID='3f379322-8ed8-4255-821b-a82e01719376' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\3f379322-8ed8-4255-821b-a82e01719376.jpg'
+ERROR 2017-11-17 22:25:35,165 [28   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='3f379322-8ed8-4255-821b-a82e01719376', string extensionName='.jpg', long position='0', int readCount='262144')
+DEBUG 2017-11-17 22:25:35,165 [28   ] Topevery_FMP_Framework                   - LogicFileID='3f379322-8ed8-4255-821b-a82e01719376' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\3f379322-8ed8-4255-821b-a82e01719376.jpg'
+ERROR 2017-11-17 22:25:35,166 [28   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='65861'
+DEBUG 2017-11-17 22:25:39,992 [28   ] Topevery_FMP_Framework                   - LogicFileID='7ff26865-30b1-40db-b003-a82e0171992f' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\7ff26865-30b1-40db-b003-a82e0171992f.jpg'
+DEBUG 2017-11-17 22:25:40,000 [28   ] Topevery_FMP_Framework                   - LogicFileID='7ff26865-30b1-40db-b003-a82e0171992f' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\7ff26865-30b1-40db-b003-a82e0171992f.jpg'
+ERROR 2017-11-17 22:25:40,057 [23   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='7ff26865-30b1-40db-b003-a82e0171992f', string extensionName='.jpg', long position='0', int readCount='262144')
+DEBUG 2017-11-17 22:25:40,057 [23   ] Topevery_FMP_Framework                   - LogicFileID='7ff26865-30b1-40db-b003-a82e0171992f' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\7ff26865-30b1-40db-b003-a82e0171992f.jpg'
+ERROR 2017-11-17 22:25:40,057 [23   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='96404'
+ERROR 2017-11-17 22:25:53,369 [23   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='c8dc2a75-4f0d-46a3-ba06-a82e01718506', string extensionName='.jpg', long position='0', int readCount='262144')
+DEBUG 2017-11-17 22:25:53,369 [23   ] Topevery_FMP_Framework                   - LogicFileID='c8dc2a75-4f0d-46a3-ba06-a82e01718506' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\c8dc2a75-4f0d-46a3-ba06-a82e01718506.jpg'
+ERROR 2017-11-17 22:25:53,370 [23   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='63286'
+DEBUG 2017-11-17 22:41:02,937 [89   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-11-17 22:41:02,938 [89   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 22:41:02,939 [89   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 22:41:02,939 [89   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-11-17 22:41:39,167 [83   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-17 22:41:39,186 [83   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-11-17 22:41:39,190 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Web.FZYWebModule, FZY.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,194 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYDataModule, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,194 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,194 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,194 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,194 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,194 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYCoreModule, FZY.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,195 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYApplicationModule, FZY.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,195 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,195 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Api.FZYWebApiModule, FZY.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,195 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,195 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,195 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,195 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,195 [83   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:39,200 [83   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-11-17 22:41:39,427 [83   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:41:39,427 [83   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:41:39,427 [83   ] o.Configuration.LanguageManagementConfig - Converted FZY (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:41:39,427 [83   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:41:39,745 [83   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FZY.EntityFramework.FZYDbContext, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:41:40,743 [83   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-17 22:41:40,751 [83   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-17 22:41:40,753 [83   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-17 22:41:40,754 [83   ] Abp.Localization.LocalizationManager     - Initialized localization source: FZY
+DEBUG 2017-11-17 22:41:40,755 [83   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-17 22:41:40,815 [83   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 22:41:40,857 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 17 classes define auto mapping attributes
+DEBUG 2017-11-17 22:41:40,857 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicOutput
+DEBUG 2017-11-17 22:41:40,860 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicInput
+DEBUG 2017-11-17 22:41:40,861 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryInput
+DEBUG 2017-11-17 22:41:40,861 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryOutput
+DEBUG 2017-11-17 22:41:40,861 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductOutput
+DEBUG 2017-11-17 22:41:40,861 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductInput
+DEBUG 2017-11-17 22:41:40,861 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-17 22:41:40,861 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-17 22:41:40,861 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.CreateUserInput
+DEBUG 2017-11-17 22:41:40,861 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.UserListDto
+DEBUG 2017-11-17 22:41:40,861 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sys.Dto.FileRDto
+DEBUG 2017-11-17 22:41:40,861 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-11-17 22:41:40,862 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-11-17 22:41:40,862 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.CategoryModel
+DEBUG 2017-11-17 22:41:40,862 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.HomePicModel
+DEBUG 2017-11-17 22:41:40,862 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ProductModel
+DEBUG 2017-11-17 22:41:40,862 [83   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-17 22:41:42,038 [83   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.WebSite.IWebSiteAppServer' with service name 'app/webSiteAppServer'.
+DEBUG 2017-11-17 22:41:42,040 [83   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-17 22:41:42,042 [83   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-17 22:41:42,043 [83   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sys.IFileRelationAppService' with service name 'app/fileRelation'.
+DEBUG 2017-11-17 22:41:42,046 [83   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-17 22:41:42,048 [83   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-11-17 22:43:35,222 [79   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='3d21e319-4372-48a3-8992-a82d00084db6', string extensionName='.jpg', long position='0', int readCount='262144')
+ERROR 2017-11-17 22:43:35,222 [74   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='135bda86-67b9-41dc-ba86-a82d0008593f', string extensionName='.jpg', long position='0', int readCount='262144')
+ERROR 2017-11-17 22:43:35,226 [84   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='c8dc2a75-4f0d-46a3-ba06-a82e01718506', string extensionName='.jpg', long position='0', int readCount='262144')
+DEBUG 2017-11-17 22:43:35,348 [84   ] Topevery_FMP_Framework                   - LogicFileID='c8dc2a75-4f0d-46a3-ba06-a82e01718506' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\c8dc2a75-4f0d-46a3-ba06-a82e01718506.jpg'
+DEBUG 2017-11-17 22:43:35,349 [79   ] Topevery_FMP_Framework                   - LogicFileID='3d21e319-4372-48a3-8992-a82d00084db6' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\15\3d21e319-4372-48a3-8992-a82d00084db6.jpg'
+DEBUG 2017-11-17 22:43:35,349 [74   ] Topevery_FMP_Framework                   - LogicFileID='135bda86-67b9-41dc-ba86-a82d0008593f' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\15\135bda86-67b9-41dc-ba86-a82d0008593f.jpg'
+ERROR 2017-11-17 22:43:35,350 [84   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='63286'
+ERROR 2017-11-17 22:43:35,359 [74   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='96404'
+ERROR 2017-11-17 22:43:35,363 [79   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='63286'
+DEBUG 2017-11-17 22:43:56,179 [91   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-11-17 22:43:56,180 [91   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 22:43:56,182 [91   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 22:43:56,182 [91   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-11-17 22:44:00,340 [88   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-17 22:44:00,356 [88   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-11-17 22:44:00,362 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Web.FZYWebModule, FZY.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,364 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYDataModule, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,364 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,364 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,365 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,365 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,365 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYCoreModule, FZY.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,365 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYApplicationModule, FZY.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,365 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,365 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Api.FZYWebApiModule, FZY.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,366 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,366 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,366 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,366 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,366 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:00,370 [88   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-11-17 22:44:00,564 [88   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:44:00,565 [88   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:44:00,565 [88   ] o.Configuration.LanguageManagementConfig - Converted FZY (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:44:00,565 [88   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:44:00,836 [88   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FZY.EntityFramework.FZYDbContext, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:44:01,717 [88   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-17 22:44:01,724 [88   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-17 22:44:01,725 [88   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-17 22:44:01,726 [88   ] Abp.Localization.LocalizationManager     - Initialized localization source: FZY
+DEBUG 2017-11-17 22:44:01,727 [88   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-17 22:44:01,781 [88   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 22:44:01,821 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 17 classes define auto mapping attributes
+DEBUG 2017-11-17 22:44:01,821 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicOutput
+DEBUG 2017-11-17 22:44:01,825 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicInput
+DEBUG 2017-11-17 22:44:01,825 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryInput
+DEBUG 2017-11-17 22:44:01,825 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryOutput
+DEBUG 2017-11-17 22:44:01,825 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductOutput
+DEBUG 2017-11-17 22:44:01,825 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductInput
+DEBUG 2017-11-17 22:44:01,825 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-17 22:44:01,826 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-17 22:44:01,826 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.CreateUserInput
+DEBUG 2017-11-17 22:44:01,826 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.UserListDto
+DEBUG 2017-11-17 22:44:01,826 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sys.Dto.FileRDto
+DEBUG 2017-11-17 22:44:01,826 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-11-17 22:44:01,826 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-11-17 22:44:01,826 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.CategoryModel
+DEBUG 2017-11-17 22:44:01,826 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.HomePicModel
+DEBUG 2017-11-17 22:44:01,826 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ProductModel
+DEBUG 2017-11-17 22:44:01,826 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-17 22:44:02,859 [88   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.WebSite.IWebSiteAppServer' with service name 'app/webSiteAppServer'.
+DEBUG 2017-11-17 22:44:02,860 [88   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-17 22:44:02,861 [88   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-17 22:44:02,862 [88   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sys.IFileRelationAppService' with service name 'app/fileRelation'.
+DEBUG 2017-11-17 22:44:02,863 [88   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-17 22:44:02,864 [88   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-17 22:45:03,947 [84   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-11-17 22:45:03,949 [84   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 22:45:03,950 [84   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 22:45:03,950 [84   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-11-17 22:45:18,766 [88   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-17 22:45:18,785 [88   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-11-17 22:45:18,792 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Web.FZYWebModule, FZY.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,795 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYDataModule, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,795 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,795 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,795 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,795 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,795 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYCoreModule, FZY.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,796 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYApplicationModule, FZY.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,796 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,796 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Api.FZYWebApiModule, FZY.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,796 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,796 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,796 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,796 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,797 [88   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:18,800 [88   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-11-17 22:45:19,036 [88   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:45:19,037 [88   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:45:19,037 [88   ] o.Configuration.LanguageManagementConfig - Converted FZY (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:45:19,037 [88   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 22:45:19,335 [88   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FZY.EntityFramework.FZYDbContext, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 22:45:20,338 [88   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-17 22:45:20,345 [88   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-17 22:45:20,346 [88   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-17 22:45:20,348 [88   ] Abp.Localization.LocalizationManager     - Initialized localization source: FZY
+DEBUG 2017-11-17 22:45:20,348 [88   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-17 22:45:20,404 [88   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 22:45:20,445 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 17 classes define auto mapping attributes
+DEBUG 2017-11-17 22:45:20,445 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicOutput
+DEBUG 2017-11-17 22:45:20,449 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicInput
+DEBUG 2017-11-17 22:45:20,449 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryInput
+DEBUG 2017-11-17 22:45:20,449 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryOutput
+DEBUG 2017-11-17 22:45:20,449 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductOutput
+DEBUG 2017-11-17 22:45:20,449 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductInput
+DEBUG 2017-11-17 22:45:20,449 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-17 22:45:20,449 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-17 22:45:20,449 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.CreateUserInput
+DEBUG 2017-11-17 22:45:20,449 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.UserListDto
+DEBUG 2017-11-17 22:45:20,449 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sys.Dto.FileRDto
+DEBUG 2017-11-17 22:45:20,449 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-11-17 22:45:20,450 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-11-17 22:45:20,450 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.CategoryModel
+DEBUG 2017-11-17 22:45:20,450 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.HomePicModel
+DEBUG 2017-11-17 22:45:20,450 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ProductModel
+DEBUG 2017-11-17 22:45:20,450 [88   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-17 22:45:21,601 [88   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.WebSite.IWebSiteAppServer' with service name 'app/webSiteAppServer'.
+DEBUG 2017-11-17 22:45:21,602 [88   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-17 22:45:21,603 [88   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-17 22:45:21,606 [88   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sys.IFileRelationAppService' with service name 'app/fileRelation'.
+DEBUG 2017-11-17 22:45:21,607 [88   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-17 22:45:21,608 [88   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-17 22:49:07,433 [67   ] Topevery_FMP_Framework                   - LogicFileID='2cc48334-d95a-424a-a892-a82e01780a6b' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\2cc48334-d95a-424a-a892-a82e01780a6b.jpg'
+DEBUG 2017-11-17 22:49:07,468 [67   ] Topevery_FMP_Framework                   - LogicFileID='2cc48334-d95a-424a-a892-a82e01780a6b' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\2cc48334-d95a-424a-a892-a82e01780a6b.jpg'
+ERROR 2017-11-17 22:49:07,611 [46   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='2cc48334-d95a-424a-a892-a82e01780a6b', string extensionName='.jpg', long position='0', int readCount='262144')
+DEBUG 2017-11-17 22:49:07,611 [46   ] Topevery_FMP_Framework                   - LogicFileID='2cc48334-d95a-424a-a892-a82e01780a6b' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\2cc48334-d95a-424a-a892-a82e01780a6b.jpg'
+ERROR 2017-11-17 22:49:07,613 [46   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='96404'
+DEBUG 2017-11-17 22:49:10,307 [75   ] Topevery_FMP_Framework                   - LogicFileID='89a2b51f-86d2-48e1-92c2-a82e01780de5' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\89a2b51f-86d2-48e1-92c2-a82e01780de5.jpg'
+DEBUG 2017-11-17 22:49:10,314 [75   ] Topevery_FMP_Framework                   - LogicFileID='89a2b51f-86d2-48e1-92c2-a82e01780de5' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\89a2b51f-86d2-48e1-92c2-a82e01780de5.jpg'
+ERROR 2017-11-17 22:49:10,363 [7    ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='89a2b51f-86d2-48e1-92c2-a82e01780de5', string extensionName='.jpg', long position='0', int readCount='262144')
+DEBUG 2017-11-17 22:49:10,364 [7    ] Topevery_FMP_Framework                   - LogicFileID='89a2b51f-86d2-48e1-92c2-a82e01780de5' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\89a2b51f-86d2-48e1-92c2-a82e01780de5.jpg'
+ERROR 2017-11-17 22:49:10,364 [7    ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='96404'
+DEBUG 2017-11-17 22:49:13,303 [82   ] Topevery_FMP_Framework                   - LogicFileID='2c2f2f1c-ab12-4dc3-b4ca-a82e01781169' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\2c2f2f1c-ab12-4dc3-b4ca-a82e01781169.jpg'
+DEBUG 2017-11-17 22:49:13,310 [82   ] Topevery_FMP_Framework                   - LogicFileID='2c2f2f1c-ab12-4dc3-b4ca-a82e01781169' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\2c2f2f1c-ab12-4dc3-b4ca-a82e01781169.jpg'
+ERROR 2017-11-17 22:49:13,395 [84   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='2c2f2f1c-ab12-4dc3-b4ca-a82e01781169', string extensionName='.jpg', long position='0', int readCount='262144')
+DEBUG 2017-11-17 22:49:13,395 [84   ] Topevery_FMP_Framework                   - LogicFileID='2c2f2f1c-ab12-4dc3-b4ca-a82e01781169' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\2c2f2f1c-ab12-4dc3-b4ca-a82e01781169.jpg'
+ERROR 2017-11-17 22:49:13,396 [84   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='65861'
+ERROR 2017-11-17 22:49:32,425 [7    ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='2cc48334-d95a-424a-a892-a82e01780a6b', string extensionName='.jpg', long position='0', int readCount='262144')
+DEBUG 2017-11-17 22:49:32,425 [7    ] Topevery_FMP_Framework                   - LogicFileID='2cc48334-d95a-424a-a892-a82e01780a6b' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\2cc48334-d95a-424a-a892-a82e01780a6b.jpg'
+ERROR 2017-11-17 22:49:32,425 [7    ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='96404'
+ERROR 2017-11-17 22:49:44,444 [77   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='c8dc2a75-4f0d-46a3-ba06-a82e01718506', string extensionName='.jpg', long position='0', int readCount='262144')
+DEBUG 2017-11-17 22:49:44,448 [77   ] Topevery_FMP_Framework                   - LogicFileID='c8dc2a75-4f0d-46a3-ba06-a82e01718506' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\c8dc2a75-4f0d-46a3-ba06-a82e01718506.jpg'
+ERROR 2017-11-17 22:49:44,448 [77   ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='63286'
+DEBUG 2017-11-17 23:10:49,212 [21   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-11-17 23:10:49,214 [21   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 23:10:49,214 [21   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 23:10:49,214 [21   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-11-17 23:43:05,785 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-17 23:43:05,805 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-11-17 23:43:05,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Web.FZYWebModule, FZY.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYDataModule, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYCoreModule, FZY.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYApplicationModule, FZY.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Api.FZYWebApiModule, FZY.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:05,818 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-11-17 23:43:06,027 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 23:43:06,027 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 23:43:06,027 [1    ] o.Configuration.LanguageManagementConfig - Converted FZY (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 23:43:06,027 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 23:43:06,303 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FZY.EntityFramework.FZYDbContext, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:43:07,467 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-17 23:43:07,475 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-17 23:43:07,477 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-17 23:43:07,479 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FZY
+DEBUG 2017-11-17 23:43:07,480 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-17 23:43:07,534 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 23:43:07,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 19 classes define auto mapping attributes
+DEBUG 2017-11-17 23:43:07,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ContractInput
+DEBUG 2017-11-17 23:43:07,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicOutput
+DEBUG 2017-11-17 23:43:07,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicInput
+DEBUG 2017-11-17 23:43:07,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryInput
+DEBUG 2017-11-17 23:43:07,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryOutput
+DEBUG 2017-11-17 23:43:07,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductOutput
+DEBUG 2017-11-17 23:43:07,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductInput
+DEBUG 2017-11-17 23:43:07,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-17 23:43:07,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-17 23:43:07,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.CreateUserInput
+DEBUG 2017-11-17 23:43:07,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.UserListDto
+DEBUG 2017-11-17 23:43:07,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sys.Dto.FileRDto
+DEBUG 2017-11-17 23:43:07,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-11-17 23:43:07,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-11-17 23:43:07,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.CategoryModel
+DEBUG 2017-11-17 23:43:07,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ContractModel
+DEBUG 2017-11-17 23:43:07,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.HomePicModel
+DEBUG 2017-11-17 23:43:07,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ProductModel
+DEBUG 2017-11-17 23:43:07,594 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-17 23:43:08,717 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.WebSite.IWebSiteAppServer' with service name 'app/webSiteAppServer'.
+DEBUG 2017-11-17 23:43:08,718 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-17 23:43:08,719 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-17 23:43:08,721 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sys.IFileRelationAppService' with service name 'app/fileRelation'.
+DEBUG 2017-11-17 23:43:08,722 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-17 23:43:08,723 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-17 23:53:29,532 [37   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-11-17 23:53:29,533 [37   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 23:53:29,535 [37   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 23:53:29,535 [37   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-11-17 23:56:05,710 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-17 23:56:05,727 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-11-17 23:56:05,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Web.FZYWebModule, FZY.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYDataModule, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYCoreModule, FZY.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYApplicationModule, FZY.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Api.FZYWebApiModule, FZY.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:05,740 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-11-17 23:56:05,944 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 23:56:05,944 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 23:56:05,944 [1    ] o.Configuration.LanguageManagementConfig - Converted FZY (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 23:56:05,944 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-17 23:56:06,264 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FZY.EntityFramework.FZYDbContext, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-17 23:56:07,213 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-17 23:56:07,220 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-17 23:56:07,222 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-17 23:56:07,223 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FZY
+DEBUG 2017-11-17 23:56:07,224 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-17 23:56:07,273 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-17 23:56:07,312 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 19 classes define auto mapping attributes
+DEBUG 2017-11-17 23:56:07,312 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ContractInput
+DEBUG 2017-11-17 23:56:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicOutput
+DEBUG 2017-11-17 23:56:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicInput
+DEBUG 2017-11-17 23:56:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryInput
+DEBUG 2017-11-17 23:56:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryOutput
+DEBUG 2017-11-17 23:56:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductOutput
+DEBUG 2017-11-17 23:56:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductInput
+DEBUG 2017-11-17 23:56:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-17 23:56:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-17 23:56:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.CreateUserInput
+DEBUG 2017-11-17 23:56:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.UserListDto
+DEBUG 2017-11-17 23:56:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sys.Dto.FileRDto
+DEBUG 2017-11-17 23:56:07,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-11-17 23:56:07,316 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-11-17 23:56:07,316 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.CategoryModel
+DEBUG 2017-11-17 23:56:07,316 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ContractModel
+DEBUG 2017-11-17 23:56:07,316 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.HomePicModel
+DEBUG 2017-11-17 23:56:07,316 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ProductModel
+DEBUG 2017-11-17 23:56:07,316 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-17 23:56:08,472 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.WebSite.IWebSiteAppServer' with service name 'app/webSiteAppServer'.
+DEBUG 2017-11-17 23:56:08,474 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-17 23:56:08,475 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-17 23:56:08,476 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sys.IFileRelationAppService' with service name 'app/fileRelation'.
+DEBUG 2017-11-17 23:56:08,476 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-17 23:56:08,477 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-11-18 00:19:25,252 [92   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-11-18 00:19:25,254 [92   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-18 00:19:25,255 [92   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-18 00:19:25,255 [92   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-11-18 00:19:35,101 [102  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-18 00:19:35,123 [102  ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-11-18 00:19:35,131 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Web.FZYWebModule, FZY.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,134 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYDataModule, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,134 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,134 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,135 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,135 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,135 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYCoreModule, FZY.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,135 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYApplicationModule, FZY.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,135 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,135 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Api.FZYWebApiModule, FZY.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,136 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,136 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,136 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,136 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,136 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:35,140 [102  ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-11-18 00:19:35,370 [102  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-18 00:19:35,370 [102  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-18 00:19:35,370 [102  ] o.Configuration.LanguageManagementConfig - Converted FZY (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-18 00:19:35,370 [102  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-18 00:19:35,708 [102  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FZY.EntityFramework.FZYDbContext, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:19:36,797 [102  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-18 00:19:36,804 [102  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-18 00:19:36,805 [102  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-18 00:19:36,806 [102  ] Abp.Localization.LocalizationManager     - Initialized localization source: FZY
+DEBUG 2017-11-18 00:19:36,807 [102  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-18 00:19:36,876 [102  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-18 00:19:36,926 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 20 classes define auto mapping attributes
+DEBUG 2017-11-18 00:19:36,926 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ContractOutput
+DEBUG 2017-11-18 00:19:36,929 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ContractInput
+DEBUG 2017-11-18 00:19:36,929 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicOutput
+DEBUG 2017-11-18 00:19:36,929 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicInput
+DEBUG 2017-11-18 00:19:36,929 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryInput
+DEBUG 2017-11-18 00:19:36,929 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryOutput
+DEBUG 2017-11-18 00:19:36,929 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductOutput
+DEBUG 2017-11-18 00:19:36,929 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductInput
+DEBUG 2017-11-18 00:19:36,929 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-18 00:19:36,930 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-18 00:19:36,930 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.CreateUserInput
+DEBUG 2017-11-18 00:19:36,930 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.UserListDto
+DEBUG 2017-11-18 00:19:36,930 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sys.Dto.FileRDto
+DEBUG 2017-11-18 00:19:36,930 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-11-18 00:19:36,930 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-11-18 00:19:36,930 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.CategoryModel
+DEBUG 2017-11-18 00:19:36,930 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ContractModel
+DEBUG 2017-11-18 00:19:36,930 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.HomePicModel
+DEBUG 2017-11-18 00:19:36,930 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ProductModel
+DEBUG 2017-11-18 00:19:36,930 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-18 00:19:38,014 [102  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.WebSite.IWebSiteAppServer' with service name 'app/webSiteAppServer'.
+DEBUG 2017-11-18 00:19:38,015 [102  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-18 00:19:38,016 [102  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-18 00:19:38,017 [102  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sys.IFileRelationAppService' with service name 'app/fileRelation'.
+DEBUG 2017-11-18 00:19:38,018 [102  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-18 00:19:38,019 [102  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-11-18 00:20:14,936 [98   ] nHandling.AbpApiExceptionFilterAttribute - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Halil\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 65
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) in D:\Halil\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:line 31
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.WebSiteAppServerProxy.GetContractListAsync(GetContractListInput input)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation) in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Controllers\Dynamic\Interceptors\AbpDynamicApiControllerInterceptor.cs:line 51
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DynamicApiController`1Proxy.GetContractListAsync(GetContractListInput input)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:line 30
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:line 63
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2017-11-18 00:20:14,949 [98   ] nHandling.AbpApiExceptionFilterAttribute - There are 1 validation errors:
+WARN  2017-11-18 00:20:14,949 [98   ] nHandling.AbpApiExceptionFilterAttribute - input is null! (input)
+DEBUG 2017-11-18 00:21:20,821 [103  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-11-18 00:21:20,822 [103  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-18 00:21:20,824 [103  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-18 00:21:20,824 [103  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-11-18 00:21:25,407 [102  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-18 00:21:25,427 [102  ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-11-18 00:21:25,434 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Web.FZYWebModule, FZY.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,438 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYDataModule, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,438 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,438 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,438 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,439 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,439 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYCoreModule, FZY.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,439 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYApplicationModule, FZY.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,440 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,440 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Api.FZYWebApiModule, FZY.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,440 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,440 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,440 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,440 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,441 [102  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:25,445 [102  ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-11-18 00:21:25,655 [102  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-18 00:21:25,655 [102  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-18 00:21:25,655 [102  ] o.Configuration.LanguageManagementConfig - Converted FZY (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-18 00:21:25,655 [102  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-18 00:21:26,003 [102  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FZY.EntityFramework.FZYDbContext, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:21:26,860 [102  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-18 00:21:26,866 [102  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-18 00:21:26,867 [102  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-18 00:21:26,869 [102  ] Abp.Localization.LocalizationManager     - Initialized localization source: FZY
+DEBUG 2017-11-18 00:21:26,869 [102  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-18 00:21:26,919 [102  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-18 00:21:26,957 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 20 classes define auto mapping attributes
+DEBUG 2017-11-18 00:21:26,957 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ContractOutput
+DEBUG 2017-11-18 00:21:26,960 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ContractInput
+DEBUG 2017-11-18 00:21:26,961 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicOutput
+DEBUG 2017-11-18 00:21:26,961 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicInput
+DEBUG 2017-11-18 00:21:26,961 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryInput
+DEBUG 2017-11-18 00:21:26,961 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryOutput
+DEBUG 2017-11-18 00:21:26,961 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductOutput
+DEBUG 2017-11-18 00:21:26,961 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductInput
+DEBUG 2017-11-18 00:21:26,961 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-18 00:21:26,961 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-18 00:21:26,961 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.CreateUserInput
+DEBUG 2017-11-18 00:21:26,961 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.UserListDto
+DEBUG 2017-11-18 00:21:26,961 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sys.Dto.FileRDto
+DEBUG 2017-11-18 00:21:26,961 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-11-18 00:21:26,962 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-11-18 00:21:26,962 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.CategoryModel
+DEBUG 2017-11-18 00:21:26,962 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ContractModel
+DEBUG 2017-11-18 00:21:26,962 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.HomePicModel
+DEBUG 2017-11-18 00:21:26,962 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ProductModel
+DEBUG 2017-11-18 00:21:26,962 [102  ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-18 00:21:27,963 [102  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.WebSite.IWebSiteAppServer' with service name 'app/webSiteAppServer'.
+DEBUG 2017-11-18 00:21:27,964 [102  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-18 00:21:27,965 [102  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-18 00:21:27,966 [102  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sys.IFileRelationAppService' with service name 'app/fileRelation'.
+DEBUG 2017-11-18 00:21:27,967 [102  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-18 00:21:27,968 [102  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-11-18 00:21:38,116 [109  ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile(IFileStorageProviderDataProvider dataProvider='Topevery.FMP.Data.SqlClient.SqlFileStorageProviderDataProvider', Guid physicalFileID='2cc48334-d95a-424a-a892-a82e01780a6b', string extensionName='.jpg', long position='0', int readCount='262144')
+DEBUG 2017-11-18 00:21:38,587 [109  ] Topevery_FMP_Framework                   - LogicFileID='2cc48334-d95a-424a-a892-a82e01780a6b' | FilePath='D:\MySpace\Repos\ZXSJ\FZY.Web\RSData\2017\11\17\2cc48334-d95a-424a-a892-a82e01780a6b.jpg'
+ERROR 2017-11-18 00:21:38,592 [109  ] Topevery_FMP_Framework                   - FileStorageManager.ReadFile Result Bytes Length='96404'
+WARN  2017-11-18 00:21:51,987 [113  ] nHandling.AbpApiExceptionFilterAttribute - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Halil\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 65
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) in D:\Halil\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:line 31
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.WebSiteAppServerProxy.GetContractListAsync(GetContractListInput input)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation) in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Controllers\Dynamic\Interceptors\AbpDynamicApiControllerInterceptor.cs:line 51
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DynamicApiController`1Proxy.GetContractListAsync(GetContractListInput input)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:line 30
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:line 63
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2017-11-18 00:21:51,995 [113  ] nHandling.AbpApiExceptionFilterAttribute - There are 1 validation errors:
+WARN  2017-11-18 00:21:51,995 [113  ] nHandling.AbpApiExceptionFilterAttribute - input is null! (input)
+WARN  2017-11-18 00:21:55,029 [94   ] nHandling.AbpApiExceptionFilterAttribute - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Halil\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 65
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) in D:\Halil\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:line 31
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.WebSiteAppServerProxy.GetContractListAsync(GetContractListInput input)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation) in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Controllers\Dynamic\Interceptors\AbpDynamicApiControllerInterceptor.cs:line 51
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.DynamicApiController`1Proxy.GetContractListAsync(GetContractListInput input)
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass12.<GetExecutor>b__8(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Uow\AbpApiUowFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Validation\AbpApiValidationFilter.cs:line 40
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Auditing\AbpApiAuditFilter.cs:line 30
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Security\AntiForgery\AbpAntiForgeryApiFilter.cs:line 59
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext() in D:\Halil\Github\aspnetboilerplate\src\Abp.Web.Api\WebApi\Authorization\AbpApiAuthorizeFilter.cs:line 63
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2017-11-18 00:21:55,029 [94   ] nHandling.AbpApiExceptionFilterAttribute - There are 1 validation errors:
+WARN  2017-11-18 00:21:55,029 [94   ] nHandling.AbpApiExceptionFilterAttribute - input is null! (input)
+DEBUG 2017-11-18 00:31:57,360 [93   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-11-18 00:31:57,362 [93   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-18 00:31:57,363 [93   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-18 00:31:57,363 [93   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-11-18 00:32:03,825 [77   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-18 00:32:03,841 [77   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-11-18 00:32:03,847 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Web.FZYWebModule, FZY.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,850 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYDataModule, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,850 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,850 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,850 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,851 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,852 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYCoreModule, FZY.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,852 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.FZYApplicationModule, FZY.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,852 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,852 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: FZY.Api.FZYWebApiModule, FZY.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,853 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,853 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,853 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,853 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,853 [77   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:03,856 [77   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-11-18 00:32:04,061 [77   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-18 00:32:04,061 [77   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-18 00:32:04,061 [77   ] o.Configuration.LanguageManagementConfig - Converted FZY (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-18 00:32:04,061 [77   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-18 00:32:04,471 [77   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: FZY.EntityFramework.FZYDbContext, FZY.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-18 00:32:05,574 [77   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-18 00:32:05,585 [77   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-18 00:32:05,586 [77   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-18 00:32:05,588 [77   ] Abp.Localization.LocalizationManager     - Initialized localization source: FZY
+DEBUG 2017-11-18 00:32:05,589 [77   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-18 00:32:05,679 [77   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-18 00:32:05,747 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 20 classes define auto mapping attributes
+DEBUG 2017-11-18 00:32:05,747 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ContractOutput
+DEBUG 2017-11-18 00:32:05,751 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ContractInput
+DEBUG 2017-11-18 00:32:05,751 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicOutput
+DEBUG 2017-11-18 00:32:05,751 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.HomePicInput
+DEBUG 2017-11-18 00:32:05,751 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryInput
+DEBUG 2017-11-18 00:32:05,751 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.CategoryOutput
+DEBUG 2017-11-18 00:32:05,751 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductOutput
+DEBUG 2017-11-18 00:32:05,751 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.WebSite.Dto.ProductInput
+DEBUG 2017-11-18 00:32:05,752 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-18 00:32:05,752 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-18 00:32:05,752 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.CreateUserInput
+DEBUG 2017-11-18 00:32:05,752 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Users.Dto.UserListDto
+DEBUG 2017-11-18 00:32:05,752 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Sys.Dto.FileRDto
+DEBUG 2017-11-18 00:32:05,752 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-11-18 00:32:05,753 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-11-18 00:32:05,753 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.CategoryModel
+DEBUG 2017-11-18 00:32:05,753 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ContractModel
+DEBUG 2017-11-18 00:32:05,753 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.HomePicModel
+DEBUG 2017-11-18 00:32:05,753 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.WebSite.ProductModel
+DEBUG 2017-11-18 00:32:05,753 [77   ] Abp.AutoMapper.AbpAutoMapperModule       - FZY.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-11-18 00:32:07,104 [77   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.WebSite.IWebSiteAppServer' with service name 'app/webSiteAppServer'.
+DEBUG 2017-11-18 00:32:07,105 [77   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-11-18 00:32:07,107 [77   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-11-18 00:32:07,108 [77   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Sys.IFileRelationAppService' with service name 'app/fileRelation'.
+DEBUG 2017-11-18 00:32:07,109 [77   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-11-18 00:32:07,110 [77   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'FZY.MultiTenancy.ITenantAppService' with service name 'app/tenant'.

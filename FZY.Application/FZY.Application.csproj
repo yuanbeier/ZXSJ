@@ -136,6 +136,9 @@
     <Compile Include="Users\Dto\ProhibitPermissionInput.cs" />
     <Compile Include="Users\UserAppService.cs" />
     <Compile Include="Users\Dto\UserListDto.cs" />
+    <Compile Include="WebSite\Dto\ContractOutput.cs" />
+    <Compile Include="WebSite\Dto\ContractInput.cs" />
+    <Compile Include="WebSite\Dto\GetContractListInput.cs" />
     <Compile Include="WebSite\Dto\GetProductListInput.cs" />
     <Compile Include="WebSite\Dto\HomePicOutput.cs" />
     <Compile Include="WebSite\Dto\HomePicInput.cs" />
