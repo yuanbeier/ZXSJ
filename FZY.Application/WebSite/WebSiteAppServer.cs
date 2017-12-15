@@ -55,7 +55,7 @@ namespace FZY.WebSite
         /// <returns></returns>
         public async Task<List<HomePicOutput>> GetHomePicListAsync()
         {
-            var list = await _homePicRepository.GetAllListAsync();
+            var list = await _homePicRepository.GetAll().OrderBy(x => x.Sort).ToListAsync() ;
             return list.MapTo<List<HomePicOutput>>();
         }
 
